@@ -227,9 +227,10 @@ def main():
 
     # ------------------ Interactive loop ------------------
     print("\nEnter your questions about the conversation (type 'exit' to quit):")
+    history={}
 
     while True:
-        history={}
+        
         query = input("\nYour query: ").strip()
         if query.lower() in ["exit", "quit"]:
             print("Exiting interactive session.")
