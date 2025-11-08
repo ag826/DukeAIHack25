@@ -169,6 +169,7 @@ def query_both_indexes(mindmap_index, mindmap_chunks, person_db: PersonDatabase,
 
 def make_rag_make_sense(query: str, retrieved_chunks: List[Dict], history):
     context = "\n".join(f"- {c['text']}" for c in retrieved_chunks)
+
     prompt = f"""
 You have the following context to help answer the user's query. Use Chat history to maintain continuity. Keep the answer concise and short:
 
@@ -192,7 +193,8 @@ def main():
     # Load person JSON from scraper
     person_db = PersonDatabase()
     json_folder= "out_speakers/profiles"
-    
+
+
     # Iterate over all JSON files in the folder
     for filename in os.listdir(json_folder):
         if filename.endswith(".json"):
@@ -200,18 +202,8 @@ def main():
             print(f"Processing {json_path}...")
             with open(json_path, "r") as f:
                 scraper_json = json.load(f)
-            
             person_db.load_from_scraper_json(scraper_json)
 
-
-    with open("person_scraped.json", "r") as f:
-        scraper_json = json.load(f)
-
-    person_db = PersonDatabase()
-    person_db.load_from_scraper_json(scraper_json)
-
-    # Manual add option
-    person_db.add_person("John Doe", "Software engineer with 10 years experience.", "LinkedIn")
 
     # Build FAISS
     person_db.build_person_chunks()
