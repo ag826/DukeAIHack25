@@ -70,20 +70,27 @@ def query_faiss(index, query_text, chunks, model_name="all-MiniLM-L6-v2", top_k=
 
 # ------------------- Step 4: make RAG make sense -------------------
 
-def make_rag_make_sense(query, retrieved_chunks, model_name="gemini-2.5-flash"):
+def make_rag_make_sense(query, retrieved_chunks, history, model_name="gemini-2.5-flash"):
     system_prompt = """You are an expert assistant. Your task is to answer questions concisely 
     based only on the provided context. Do not include explanations or unrelated text."""
 
     context_text = "\n".join(f"- {chunk['text']}" for chunk in retrieved_chunks)
 
     user_prompt = f"""
-    Context:
+    You have the following context to help answer the user's query. Use Chat history to maintain continuity. Keep the answer concise and short:
+
+    [CONTEXT STARTS]
     {context_text}
+    [CONTEXT ENDS]
 
-    Question:
-    {query}
+    [CHAT HISTORY STARTS]
+    {history}
+    [CHAT HISTORY ENDS]
 
-    Provide a short answer based only on the context above.
+    Here is the user query:
+     {query}
+    
+
     """
 
     # Initialize Gemini client

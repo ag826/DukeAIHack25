@@ -31,6 +31,8 @@ chunks, embeddings = embed_chunks(chunks)
 index = build_faiss_index(embeddings)
 print("✅ FAISS index built with", len(chunks), "chunks")
 
+history={}
+
 # ------------------ Interactive loop ------------------
 print("\nEnter your questions about the conversation (type 'exit' to quit):")
 
@@ -39,13 +41,19 @@ while True:
     if query.lower() in ["exit", "quit"]:
         print("Exiting interactive session.")
         break
-
+    
     # Retrieve top chunks from FAISS
     results = query_faiss(index, query, chunks)
 
     # Get concise answer from Gemini/LLM
-    concise_result = make_rag_make_sense(query, results)
+    concise_result = make_rag_make_sense(query, results, history)
 
     # Print results
     print("\n✅ Concise Answer:")
     print(concise_result)
+    history[query] = concise_result
+    
+    print("\n✅ Chat History:")
+    print(history)
+    
+
