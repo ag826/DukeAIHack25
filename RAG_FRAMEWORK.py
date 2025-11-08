@@ -216,14 +216,40 @@ def main():
     mindmap_index = build_mindmap_index(mindmap_chunks)
 
     # Query example
-    query = "Tell me about Mobasserul Haque"
-    results = query_both_indexes(mindmap_index, mindmap_chunks, person_db, query)
-    for r in results:
-        print(f"{r['source']} | {r.get('person_id')} | {r['text'][:100]}...")
+    # query = "Tell me about Mobasserul Haque"
+    # results = query_both_indexes(mindmap_index, mindmap_chunks, person_db, query)
+    # for r in results:
+    #     print(f"{r['source']} | {r.get('person_id')} | {r['text'][:100]}...")
 
-    # RAG answer
-    answer = make_rag_make_sense(query, results, history={})
-    print("\n💡 Answer:\n", answer)
+    # # RAG answer
+    # answer = make_rag_make_sense(query, results, history={})
+    # print("\n💡 Answer:\n", answer)
+
+    # ------------------ Interactive loop ------------------
+    print("\nEnter your questions about the conversation (type 'exit' to quit):")
+
+    while True:
+        history={}
+        query = input("\nYour query: ").strip()
+        if query.lower() in ["exit", "quit"]:
+            print("Exiting interactive session.")
+            break
+        
+        results = query_both_indexes(mindmap_index, mindmap_chunks, person_db, query)
+        for r in results:
+            print(f"{r['source']} | {r.get('person_id')} | {r['text'][:100]}...")
+
+        # RAG answer
+        answer = make_rag_make_sense(query, results, history)
+        print("\n💡 Answer:\n", answer)
+
+        history[query] = answer
+        
+        print("\n✅ Chat History:")
+        print("="*20)
+        for q, a in history.items():
+            print(f"Q: {q}\nA: {a}\n")
+        print("="*20)
 
 
 if __name__ == "__main__":
