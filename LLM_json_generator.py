@@ -7,7 +7,7 @@ import dotenv
 dotenv.load_dotenv()
 
 
-def generate_conversation_mindmap_json(conversation_txt, source_file="transcript.txt"):
+def generate_conversation_mindmap_json(conversation_txt, source_file="speaker.txt"):
     system_prompt = """You are an expert conversation analyst. Your task is to read a multi-speaker dialogue and extract structured information for a mind map.
 
 You must:
@@ -84,13 +84,13 @@ You must:
     # add metadata
     data["metadata"]["source_file"] = source_file
     data["metadata"]["generated_on"] = datetime.datetime.utcnow().isoformat()
-    data["metadata"]["llm_model"] = "gemini-1.5-pro"
+    data["metadata"]["llm_model"] = "gemini-2.5-pro"
 
     return data
 
 
 def main():
-    transcript_path = "transcript.txt"
+    transcript_path = "speaker.txt"
 
     with open(transcript_path, "r", encoding="utf-8") as f:
         transcript_text = f.read()

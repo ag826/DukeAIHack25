@@ -184,7 +184,7 @@ You have the following context to help answer the user's query. Use Chat history
 Here is the user query:
 {query}
 """
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     response = model.generate_content(prompt)
     return response.text
 
