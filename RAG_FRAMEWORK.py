@@ -190,6 +190,20 @@ Here is the user query:
 
 def main():
     # Load person JSON from scraper
+    person_db = PersonDatabase()
+    json_folder= "out_speakers/profiles"
+    
+    # Iterate over all JSON files in the folder
+    for filename in os.listdir(json_folder):
+        if filename.endswith(".json"):
+            json_path = os.path.join(json_folder, filename)
+            print(f"Processing {json_path}...")
+            with open(json_path, "r") as f:
+                scraper_json = json.load(f)
+            
+            person_db.load_from_scraper_json(scraper_json)
+
+
     with open("person_scraped.json", "r") as f:
         scraper_json = json.load(f)
 
