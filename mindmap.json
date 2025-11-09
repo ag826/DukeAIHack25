@@ -1,732 +1,292 @@
 {
-  "conversation_title": "Cincinnati Tech Community: Purpose, Engagement, and Future Direction",
+  "conversation_title": "NBA and OKC Draft Picks Discussion",
   "participants": [
     {
-      "name": "Adil Gazder.",
-      "role": "Community Member"
+      "name": "Andre Cole"
     },
     {
-      "name": "Pranshul Bhatnagar.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Lewis Hamilton",
-      "role": "Community Member"
-    },
-    {
-      "name": "Neha Senthil.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Joe Rogan",
-      "role": "Community Member"
-    },
-    {
-      "name": "Daymond John.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Mobasserul Haque.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Aravind Srinivas.",
-      "role": "Community Organizer"
-    },
-    {
-      "name": "Mark Cuban.",
-      "role": "Community Member"
-    },
-    {
-      "name": "James Sinegal.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Paul Hudson.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Michelle Tandler.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Lex Fridman",
-      "role": "Community Member"
-    },
-    {
-      "name": "Kevin O\u2019Leary.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Bill Gates.",
-      "role": "Community Member"
-    },
-    {
-      "name": "Paul Varga.",
-      "role": "Community Member"
+      "name": "Adil Gazder"
     }
   ],
   "main_topics": [
     {
-      "topic": "Cincinnati Tech Community Engagement",
-      "introduced_by": "Adil Gazder.",
-      "introduced_at": "00:00:00",
+      "topic": "Favorite Sport",
+      "introduced_by": "Andre Cole",
+      "introduced_at": "00:00:01",
       "sentiment": "neutral",
       "subtopics": [
         {
-          "subtopic": "Reasons for participation",
-          "introduced_by": "Adil Gazder.",
-          "introduced_at": "00:00:00",
-          "stance": "question",
-          "targeted_at": "Cincinnati Tech Community Engagement",
-          "discussed_by": [
-            "Adil Gazder.",
-            "Mobasserul Haque.",
-            "Joe Rogan",
-            "Daymond John.",
-            "Aravind Srinivas."
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Discussion platforms (Twitter, blogs)",
-          "introduced_by": "Joe Rogan",
-          "introduced_at": "11:50:00",
-          "stance": "question",
-          "targeted_at": "Cincinnati Tech Community Engagement",
-          "discussed_by": [
-            "Joe Rogan",
-            "Pranshul Bhatnagar.",
-            "Adil Gazder.",
-            "Mobasserul Haque."
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Effectiveness of current discussion methods",
-          "introduced_by": "Adil Gazder.",
-          "introduced_at": "11:54:00",
-          "stance": "challenge",
-          "targeted_at": "Discussion platforms (Twitter, blogs)",
-          "discussed_by": [
-            "Adil Gazder.",
-            "Mobasserul Haque."
-          ],
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "topic": "Homeschooling and Education Alternatives",
-      "introduced_by": "Neha Senthil.",
-      "introduced_at": "11:45:00",
-      "sentiment": "neutral",
-      "subtopics": [
-        {
-          "subtopic": "Considering homeschooling",
-          "introduced_by": "Neha Senthil.",
-          "introduced_at": "11:45:00",
-          "stance": "neutral",
-          "targeted_at": "Homeschooling and Education Alternatives",
-          "discussed_by": [
-            "Neha Senthil.",
-            "Pranshul Bhatnagar."
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Leaves of Learning program",
-          "introduced_by": "Neha Senthil.",
-          "introduced_at": "11:45:00",
-          "stance": "elaboration",
-          "targeted_at": "Considering homeschooling",
-          "discussed_by": [
-            "Neha Senthil.",
-            "Pranshul Bhatnagar."
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Homeschooling paperwork and evaluations",
-          "introduced_by": "Neha Senthil.",
-          "introduced_at": "11:46:00",
-          "stance": "question",
-          "targeted_at": "Considering homeschooling",
-          "discussed_by": [
-            "Neha Senthil.",
-            "Pranshul Bhatnagar."
-          ],
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    {
-      "topic": "BBQs as a Venue for Community Conversations",
-      "introduced_by": "Lewis Hamilton",
-      "introduced_at": "11:55:00",
-      "sentiment": "positive",
-      "subtopics": [
-        {
-          "subtopic": "Frequency and hosting of BBQs",
-          "introduced_by": "Lewis Hamilton",
-          "introduced_at": "12:05:00",
-          "stance": "elaboration",
-          "targeted_at": "BBQs as a Venue for Community Conversations",
-          "discussed_by": [
-            "Lewis Hamilton",
-            "Pranshul Bhatnagar.",
-            "Neha Senthil."
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Logistics for organizing BBQs (email lists)",
-          "introduced_by": "Lewis Hamilton",
-          "introduced_at": "12:10:00",
-          "stance": "question",
-          "targeted_at": "BBQs as a Venue for Community Conversations",
-          "discussed_by": [
-            "Lewis Hamilton",
-            "Pranshul Bhatnagar."
-          ],
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    {
-      "topic": "Goals and Vision for Cincinnati Tech Community",
-      "introduced_by": "Mobasserul Haque.",
-      "introduced_at": "12:07:00",
-      "sentiment": "neutral",
-      "subtopics": [
-        {
-          "subtopic": "Clarifying main goals (build community, increase exposure)",
-          "introduced_by": "Mobasserul Haque.",
-          "introduced_at": "12:07:00",
-          "stance": "question",
-          "targeted_at": "Goals and Vision for Cincinnati Tech Community",
-          "discussed_by": [
-            "Mobasserul Haque.",
-            "Aravind Srinivas."
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Methods to build community (demos, social, service, hackathons)",
-          "introduced_by": "Mobasserul Haque.",
-          "introduced_at": "12:15:00",
-          "stance": "elaboration",
-          "targeted_at": "Goals and Vision for Cincinnati Tech Community",
-          "discussed_by": [
-            "Mobasserul Haque.",
-            "Pranshul Bhatnagar.",
-            "Daymond John.",
-            "Joe Rogan"
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Importance of defining the 'why' over 'what' (events)",
-          "introduced_by": "Aravind Srinivas.",
-          "introduced_at": "01:05:00",
-          "stance": "challenge",
-          "targeted_at": "Goals and Vision for Cincinnati Tech Community",
-          "discussed_by": [
-            "Aravind Srinivas.",
-            "Mobasserul Haque.",
-            "Joe Rogan"
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Altruistic goals vs. funding/startup focus",
-          "introduced_by": "Mobasserul Haque.",
-          "introduced_at": "01:22:00",
-          "stance": "elaboration",
-          "targeted_at": "Importance of defining the 'why' over 'what' (events)",
-          "discussed_by": [
-            "Mobasserul Haque.",
-            "Aravind Srinivas.",
-            "Lewis Hamilton",
-            "Pranshul Bhatnagar.",
-            "Joe Rogan"
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Crafting a unifying statement/tagline",
-          "introduced_by": "Aravind Srinivas.",
-          "introduced_at": "01:23:00",
-          "stance": "elaboration",
-          "targeted_at": "Importance of defining the 'why' over 'what' (events)",
-          "discussed_by": [
-            "Aravind Srinivas.",
-            "Mobasserul Haque.",
-            "Joe Rogan",
-            "Pranshul Bhatnagar.",
-            "Mark Cuban.",
-            "Michelle Tandler.",
-            "Bill Gates."
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Target audience for messaging",
-          "introduced_by": "Daymond John.",
-          "introduced_at": "01:30:00",
-          "stance": "question",
-          "targeted_at": "Crafting a unifying statement/tagline",
-          "discussed_by": [
-            "Daymond John.",
-            "Aravind Srinivas.",
-            "Adil Gazder.",
-            "Joe Rogan",
-            "Mobasserul Haque."
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "'Thinking backward' exercise for goals",
-          "introduced_by": "Michelle Tandler.",
-          "introduced_at": "02:00:00",
-          "stance": "elaboration",
-          "targeted_at": "Goals and Vision for Cincinnati Tech Community",
-          "discussed_by": [
-            "Michelle Tandler.",
-            "Aravind Srinivas.",
-            "Lewis Hamilton",
-            "Joe Rogan"
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Specific desired outcomes (economic, social, education)",
-          "introduced_by": "Adil Gazder.",
-          "introduced_at": "02:20:00",
-          "stance": "elaboration",
-          "targeted_at": "'Thinking backward' exercise for goals",
-          "discussed_by": [
-            "Adil Gazder.",
-            "Aravind Srinivas.",
-            "Mark Cuban.",
-            "Lewis Hamilton",
-            "Joe Rogan"
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Inspiration and motivation as a goal",
-          "introduced_by": "Lex Fridman",
-          "introduced_at": "03:00:00",
-          "stance": "elaboration",
-          "targeted_at": "Goals and Vision for Cincinnati Tech Community",
-          "discussed_by": [
-            "Lex Fridman",
-            "Aravind Srinivas."
-          ],
-          "sentiment": "positive"
-        }
-      ]
-    },
-    {
-      "topic": "Communication and Collaboration Channels",
-      "introduced_by": "Joe Rogan",
-      "introduced_at": "01:07:00",
-      "sentiment": "neutral",
-      "subtopics": [
-        {
-          "subtopic": "Unified communication channel",
-          "introduced_by": "Joe Rogan",
-          "introduced_at": "01:07:00",
+          "subtopic": "Basketball as Favorite Sport",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:04",
           "stance": "support",
-          "targeted_at": "Communication and Collaboration Channels",
+          "targeted_at": "Favorite Sport",
           "discussed_by": [
-            "Joe Rogan",
-            "Aravind Srinivas.",
-            "Mobasserul Haque.",
-            "Adil Gazder."
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Twitter (hashtag) as a primary channel",
-          "introduced_by": "Joe Rogan",
-          "introduced_at": "01:07:00",
-          "stance": "proposal",
-          "targeted_at": "Unified communication channel",
-          "discussed_by": [
-            "Joe Rogan",
-            "Aravind Srinivas.",
-            "Adil Gazder.",
-            "Mobasserul Haque."
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Discourse server as a solution",
-          "introduced_by": "Lex Fridman",
-          "introduced_at": "02:25:00",
-          "stance": "proposal",
-          "targeted_at": "Unified communication channel",
-          "discussed_by": [
-            "Lex Fridman",
-            "Adil Gazder.",
-            "Aravind Srinivas.",
-            "Joe Rogan"
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Aligning existing channels vs. starting new ones",
-          "introduced_by": "Aravind Srinivas.",
-          "introduced_at": "02:00:00",
-          "stance": "challenge",
-          "targeted_at": "Unified communication channel",
-          "discussed_by": [
-            "Aravind Srinivas.",
-            "Adil Gazder.",
-            "Joe Rogan"
+            "Adil Gazder"
           ],
           "sentiment": "neutral"
         }
       ]
     },
     {
-      "topic": "Role of Existing Organizations and Resources",
-      "introduced_by": "Mobasserul Haque.",
-      "introduced_at": "01:15:00",
+      "topic": "NBA Fandom",
+      "introduced_by": "Andre Cole",
+      "introduced_at": "00:00:05",
       "sentiment": "neutral",
       "subtopics": [
         {
-          "subtopic": "NYTM (New York Tech Meetup) model",
-          "introduced_by": "Mobasserul Haque.",
-          "introduced_at": "01:15:00",
-          "stance": "elaboration",
-          "targeted_at": "Role of Existing Organizations and Resources",
+          "subtopic": "Following NBA",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:05",
+          "stance": "question",
+          "targeted_at": "NBA Fandom",
           "discussed_by": [
-            "Mobasserul Haque.",
-            "Lex Fridman",
-            "Aravind Srinivas.",
-            "Paul Varga.",
-            "Joe Rogan"
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Cintrifuse as a potential hub/resource",
-          "introduced_by": "Lex Fridman",
-          "introduced_at": "02:05:00",
-          "stance": "proposal",
-          "targeted_at": "Role of Existing Organizations and Resources",
-          "discussed_by": [
-            "Lex Fridman",
-            "Aravind Srinivas.",
-            "Daymond John.",
-            "Mobasserul Haque.",
-            "Joe Rogan"
+            "Andre Cole",
+            "Adil Gazder"
           ],
           "sentiment": "neutral"
         },
         {
-          "subtopic": "Haile Foundation as an alternative/partner",
-          "introduced_by": "Lex Fridman",
-          "introduced_at": "02:09:00",
-          "stance": "proposal",
-          "targeted_at": "Role of Existing Organizations and Resources",
+          "subtopic": "OKC as Favorite Team",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:08",
+          "stance": "question",
+          "targeted_at": "NBA Fandom",
           "discussed_by": [
-            "Lex Fridman",
-            "Aravind Srinivas.",
-            "Adil Gazder.",
-            "Kevin O\u2019Leary."
+            "Andre Cole",
+            "Adil Gazder"
           ],
-          "sentiment": "positive"
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "topic": "OKC Draft Picks",
+      "introduced_by": "Andre Cole",
+      "introduced_at": "00:00:10",
+      "sentiment": "neutral",
+      "subtopics": [
+        {
+          "subtopic": "Quantity of Draft Picks (25)",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:10",
+          "stance": "question",
+          "targeted_at": "OKC Draft Picks",
+          "discussed_by": [
+            "Andre Cole",
+            "Adil Gazder"
+          ],
+          "sentiment": "neutral"
         },
         {
-          "subtopic": "CincyTech's perceived disinterest in developers",
-          "introduced_by": "Aravind Srinivas.",
-          "introduced_at": "03:15:00",
-          "stance": "challenge",
-          "targeted_at": "Role of Existing Organizations and Resources",
+          "subtopic": "Quality of Draft Picks (Second Rounders)",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:14",
+          "stance": "elaboration",
+          "targeted_at": "Quantity of Draft Picks (25)",
           "discussed_by": [
-            "Aravind Srinivas.",
-            "Lex Fridman",
-            "Joe Rogan",
-            "Pranshul Bhatnagar."
+            "Adil Gazder"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "subtopic": "Lack of Top Talent from Good Schools",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:25",
+          "stance": "elaboration",
+          "targeted_at": "Quality of Draft Picks (Second Rounders)",
+          "discussed_by": [
+            "Adil Gazder",
+            "Andre Cole"
+          ],
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "topic": "Cooper Flag's Performance",
+      "introduced_by": "Adil Gazder",
+      "introduced_at": "00:00:25",
+      "sentiment": "negative",
+      "subtopics": [
+        {
+          "subtopic": "Cooper Flag's Poor Performance in Dallas",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:30",
+          "stance": "challenge",
+          "targeted_at": "Cooper Flag's Performance",
+          "discussed_by": [
+            "Adil Gazder"
           ],
           "sentiment": "negative"
         },
         {
-          "subtopic": "Sponsorships for events",
-          "introduced_by": "Aravind Srinivas.",
-          "introduced_at": "03:15:00",
-          "stance": "request",
-          "targeted_at": "Role of Existing Organizations and Resources",
+          "subtopic": "Cooper Flag Playing Well",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:32",
+          "stance": "challenge",
+          "targeted_at": "Cooper Flag's Poor Performance in Dallas",
           "discussed_by": [
-            "Aravind Srinivas.",
-            "Lex Fridman"
-          ],
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    {
-      "topic": "Demos at Web/Tech Drinkup",
-      "introduced_by": "Pranshul Bhatnagar.",
-      "introduced_at": "01:18:00",
-      "sentiment": "positive",
-      "subtopics": [
-        {
-          "subtopic": "Adding demos to existing drinkup",
-          "introduced_by": "Pranshul Bhatnagar.",
-          "introduced_at": "01:18:00",
-          "stance": "proposal",
-          "targeted_at": "Demos at Web/Tech Drinkup",
-          "discussed_by": [
-            "Pranshul Bhatnagar.",
-            "Daymond John.",
-            "Aravind Srinivas.",
-            "Joe Rogan",
-            "Mobasserul Haque.",
-            "Lex Fridman"
+            "Andre Cole"
           ],
           "sentiment": "positive"
         },
         {
-          "subtopic": "Format of demos ('why' vs. 'how')",
-          "introduced_by": "Joe Rogan",
-          "introduced_at": "01:27:00",
+          "subtopic": "Performance vs. Game Outcomes",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:35",
           "stance": "elaboration",
-          "targeted_at": "Adding demos to existing drinkup",
+          "targeted_at": "Cooper Flag Playing Well",
           "discussed_by": [
-            "Joe Rogan",
-            "Pranshul Bhatnagar."
+            "Andre Cole"
           ],
           "sentiment": "neutral"
         },
         {
-          "subtopic": "NYTM-style demos",
-          "introduced_by": "Aravind Srinivas.",
-          "introduced_at": "02:55:00",
-          "stance": "elaboration",
-          "targeted_at": "Adding demos to existing drinkup",
+          "subtopic": "Plus/Minus Stats",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:39",
+          "stance": "challenge",
+          "targeted_at": "Performance vs. Game Outcomes",
           "discussed_by": [
-            "Aravind Srinivas.",
-            "Lex Fridman"
+            "Adil Gazder"
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "subtopic": "Averaging 18 Points",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:45",
+          "stance": "challenge",
+          "targeted_at": "Plus/Minus Stats",
+          "discussed_by": [
+            "Andre Cole"
           ],
           "sentiment": "positive"
+        },
+        {
+          "subtopic": "Averaging 10 Points",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:48",
+          "stance": "challenge",
+          "targeted_at": "Averaging 18 Points",
+          "discussed_by": [
+            "Adil Gazder"
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "subtopic": "Source of Information (Propaganda/Mavs Instagram)",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:53",
+          "stance": "challenge",
+          "targeted_at": "Averaging 18 Points",
+          "discussed_by": [
+            "Adil Gazder",
+            "Andre Cole"
+          ],
+          "sentiment": "negative"
         }
       ]
     }
   ],
   "relationships": [
     {
-      "from": "Cincinnati Tech Community Engagement",
-      "to": "Reasons for participation",
-      "type": "extension",
-      "initiated_by": "Adil Gazder.",
-      "initiated_at": "00:00:00"
-    },
-    {
-      "from": "Cincinnati Tech Community Engagement",
-      "to": "Discussion platforms (Twitter, blogs)",
-      "type": "extension",
-      "initiated_by": "Joe Rogan",
-      "initiated_at": "11:50:00"
-    },
-    {
-      "from": "Discussion platforms (Twitter, blogs)",
-      "to": "Effectiveness of current discussion methods",
-      "type": "challenge",
-      "initiated_by": "Adil Gazder.",
-      "initiated_at": "11:54:00"
-    },
-    {
-      "from": "Homeschooling and Education Alternatives",
-      "to": "Considering homeschooling",
-      "type": "elaboration",
-      "initiated_by": "Neha Senthil.",
-      "initiated_at": "11:45:00"
-    },
-    {
-      "from": "Considering homeschooling",
-      "to": "Leaves of Learning program",
-      "type": "elaboration",
-      "initiated_by": "Pranshul Bhatnagar.",
-      "initiated_at": "11:45:00"
-    },
-    {
-      "from": "Considering homeschooling",
-      "to": "Homeschooling paperwork and evaluations",
-      "type": "question",
-      "initiated_by": "Neha Senthil.",
-      "initiated_at": "11:46:00"
-    },
-    {
-      "from": "BBQs as a Venue for Community Conversations",
-      "to": "Frequency and hosting of BBQs",
-      "type": "elaboration",
-      "initiated_by": "Lewis Hamilton",
-      "initiated_at": "12:05:00"
-    },
-    {
-      "from": "BBQs as a Venue for Community Conversations",
-      "to": "Logistics for organizing BBQs (email lists)",
-      "type": "extension",
-      "initiated_by": "Lewis Hamilton",
-      "initiated_at": "12:10:00"
-    },
-    {
-      "from": "Goals and Vision for Cincinnati Tech Community",
-      "to": "Clarifying main goals (build community, increase exposure)",
-      "type": "question",
-      "initiated_by": "Mobasserul Haque.",
-      "initiated_at": "12:07:00"
-    },
-    {
-      "from": "Goals and Vision for Cincinnati Tech Community",
-      "to": "Methods to build community (demos, social, service, hackathons)",
-      "type": "elaboration",
-      "initiated_by": "Mobasserul Haque.",
-      "initiated_at": "12:15:00"
-    },
-    {
-      "from": "Goals and Vision for Cincinnati Tech Community",
-      "to": "Importance of defining the 'why' over 'what' (events)",
-      "type": "challenge",
-      "initiated_by": "Aravind Srinivas.",
-      "initiated_at": "01:05:00"
-    },
-    {
-      "from": "Importance of defining the 'why' over 'what' (events)",
-      "to": "Altruistic goals vs. funding/startup focus",
-      "type": "elaboration",
-      "initiated_by": "Mobasserul Haque.",
-      "initiated_at": "01:22:00"
-    },
-    {
-      "from": "Importance of defining the 'why' over 'what' (events)",
-      "to": "Crafting a unifying statement/tagline",
-      "type": "elaboration",
-      "initiated_by": "Aravind Srinivas.",
-      "initiated_at": "01:23:00"
-    },
-    {
-      "from": "Crafting a unifying statement/tagline",
-      "to": "Target audience for messaging",
-      "type": "question",
-      "initiated_by": "Daymond John.",
-      "initiated_at": "01:30:00"
-    },
-    {
-      "from": "Goals and Vision for Cincinnati Tech Community",
-      "to": "'Thinking backward' exercise for goals",
-      "type": "elaboration",
-      "initiated_by": "Michelle Tandler.",
-      "initiated_at": "02:00:00"
-    },
-    {
-      "from": "'Thinking backward' exercise for goals",
-      "to": "Specific desired outcomes (economic, social, education)",
-      "type": "elaboration",
-      "initiated_by": "Adil Gazder.",
-      "initiated_at": "02:20:00"
-    },
-    {
-      "from": "Goals and Vision for Cincinnati Tech Community",
-      "to": "Inspiration and motivation as a goal",
-      "type": "elaboration",
-      "initiated_by": "Lex Fridman",
-      "initiated_at": "03:00:00"
-    },
-    {
-      "from": "Communication and Collaboration Channels",
-      "to": "Unified communication channel",
+      "from": "Basketball as Favorite Sport",
+      "to": "Favorite Sport",
       "type": "support",
-      "initiated_by": "Joe Rogan",
-      "initiated_at": "01:07:00"
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:04"
     },
     {
-      "from": "Unified communication channel",
-      "to": "Twitter (hashtag) as a primary channel",
-      "type": "proposal",
-      "initiated_by": "Joe Rogan",
-      "initiated_at": "01:07:00"
+      "from": "Following NBA",
+      "to": "NBA Fandom",
+      "type": "extension",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:05"
     },
     {
-      "from": "Unified communication channel",
-      "to": "Discourse server as a solution",
-      "type": "proposal",
-      "initiated_by": "Lex Fridman",
-      "initiated_at": "02:25:00"
+      "from": "OKC as Favorite Team",
+      "to": "NBA Fandom",
+      "type": "extension",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:08"
     },
     {
-      "from": "Unified communication channel",
-      "to": "Aligning existing channels vs. starting new ones",
+      "from": "Quantity of Draft Picks (25)",
+      "to": "OKC Draft Picks",
+      "type": "extension",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:10"
+    },
+    {
+      "from": "Quality of Draft Picks (Second Rounders)",
+      "to": "Quantity of Draft Picks (25)",
+      "type": "elaboration",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:14"
+    },
+    {
+      "from": "Lack of Top Talent from Good Schools",
+      "to": "Quality of Draft Picks (Second Rounders)",
+      "type": "elaboration",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:25"
+    },
+    {
+      "from": "Cooper Flag's Poor Performance in Dallas",
+      "to": "Lack of Top Talent from Good Schools",
+      "type": "elaboration",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:30"
+    },
+    {
+      "from": "Cooper Flag Playing Well",
+      "to": "Cooper Flag's Poor Performance in Dallas",
       "type": "challenge",
-      "initiated_by": "Aravind Srinivas.",
-      "initiated_at": "02:00:00"
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:32"
     },
     {
-      "from": "Role of Existing Organizations and Resources",
-      "to": "NYTM (New York Tech Meetup) model",
+      "from": "Performance vs. Game Outcomes",
+      "to": "Cooper Flag Playing Well",
       "type": "elaboration",
-      "initiated_by": "Mobasserul Haque.",
-      "initiated_at": "01:15:00"
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:35"
     },
     {
-      "from": "Role of Existing Organizations and Resources",
-      "to": "Cintrifuse as a potential hub/resource",
-      "type": "proposal",
-      "initiated_by": "Lex Fridman",
-      "initiated_at": "02:05:00"
-    },
-    {
-      "from": "Role of Existing Organizations and Resources",
-      "to": "Haile Foundation as an alternative/partner",
-      "type": "proposal",
-      "initiated_by": "Lex Fridman",
-      "initiated_at": "02:09:00"
-    },
-    {
-      "from": "Role of Existing Organizations and Resources",
-      "to": "CincyTech's perceived disinterest in developers",
+      "from": "Plus/Minus Stats",
+      "to": "Performance vs. Game Outcomes",
       "type": "challenge",
-      "initiated_by": "Aravind Srinivas.",
-      "initiated_at": "03:15:00"
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:39"
     },
     {
-      "from": "Role of Existing Organizations and Resources",
-      "to": "Sponsorships for events",
-      "type": "request",
-      "initiated_by": "Aravind Srinivas.",
-      "initiated_at": "03:15:00"
+      "from": "Averaging 18 Points",
+      "to": "Plus/Minus Stats",
+      "type": "challenge",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:45"
     },
     {
-      "from": "Demos at Web/Tech Drinkup",
-      "to": "Adding demos to existing drinkup",
-      "type": "proposal",
-      "initiated_by": "Pranshul Bhatnagar.",
-      "initiated_at": "01:18:00"
+      "from": "Averaging 10 Points",
+      "to": "Averaging 18 Points",
+      "type": "challenge",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:48"
     },
     {
-      "from": "Adding demos to existing drinkup",
-      "to": "Format of demos ('why' vs. 'how')",
-      "type": "elaboration",
-      "initiated_by": "Joe Rogan",
-      "initiated_at": "01:27:00"
-    },
-    {
-      "from": "Adding demos to existing drinkup",
-      "to": "NYTM-style demos",
-      "type": "elaboration",
-      "initiated_by": "Aravind Srinivas.",
-      "initiated_at": "02:55:00"
+      "from": "Source of Information (Propaganda/Mavs Instagram)",
+      "to": "Averaging 18 Points",
+      "type": "challenge",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:53"
     }
   ],
   "metadata": {
-    "conversation_length": "05:30:00",
-    "source_file": "speaker.txt",
-    "generated_on": "2025-11-08T22:11:09.362906",
+    "conversation_length": "00:01:00",
+    "source_file": "namedREALTIME_transcript.txt",
+    "generated_on": "2025-11-09T02:18:35.851254",
     "llm_model": "gemini-2.5-pro"
   }
 }

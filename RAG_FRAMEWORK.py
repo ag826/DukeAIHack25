@@ -7,7 +7,7 @@ from typing import List, Dict
 import google.generativeai as genai
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2")
+EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2")   
 
 class PersonDatabase:
     """Person DB with consistent person_id, FAISS, and chunk management"""
@@ -93,103 +93,105 @@ class PersonDatabase:
 
 # MINDMAP DATABASE
 
-def prepare_mindmap_chunks(mindmap_json, person_db=None):
-    """
-    Prepare mindmap chunks for FAISS indexing.
-    Each chunk stores topic/subtopic text and associated person_id (if matched).
-    """
-    mindmap_chunks = []
-    for topic in mindmap_json.get("topics", []):
-        topic_name = topic.get("topic", "").strip()
-        topic_desc = topic.get("description", "").strip()
-        introduced_by = topic.get("introduced_by", "").strip().lower()
+# def prepare_mindmap_chunks(mindmap_json, person_db):
+#     """
+#     Prepare mindmap chunks for FAISS indexing.
+#     Each chunk stores topic/subtopic text and associated person_id (if matched).
+#     """
+#     mindmap_chunks = []
+#     for topic in mindmap_json.get("topics", []):
+#         topic_name = topic.get("topic", "").strip()
+#         topic_desc = topic.get("description", "").strip()
+#         introduced_by = topic.get("introduced_by", "").strip().lower()
 
-        # Get person_id safely
-        pid = None
-        if person_db and introduced_by:
-            pid = person_db.name_to_id.get(introduced_by)
-            if not pid:  # fallback: try fuzzy match
-                for name in person_db.name_to_id.keys():
-                    if introduced_by in name:
-                        pid = person_db.name_to_id[name]
-                        break
-
-        mindmap_chunks.append({
-            "text": f"{topic_name}: {topic_desc}",
-            "source": "mindmap",
-            "topic": topic_name,
-            "person_id": pid
-        })
-
-        # Add subtopics too
-        for sub in topic.get("subtopics", []):
-            sub_name = sub.get("topic", "").strip()
-            sub_desc = sub.get("description", "").strip()
-            sub_intro = sub.get("introduced_by", "").strip().lower()
-
-            pid_sub = None
-            if person_db and sub_intro:
-                pid_sub = person_db.name_to_id.get(sub_intro)
-                if not pid_sub:  # fallback: fuzzy
-                    for name in person_db.name_to_id.keys():
-                        if sub_intro in name:
-                            pid_sub = person_db.name_to_id[name]
-                            break
-
-            mindmap_chunks.append({
-                "text": f"{sub_name}: {sub_desc}",
-                "source": "mindmap",
-                "topic": sub_name,
-                "person_id": pid_sub
-            })
-
-    print(f"✅ Prepared {len(mindmap_chunks)} mindmap chunks.")
-    return mindmap_chunks
-
-
-# def prepare_mindmap_chunks(json_data, person_db: PersonDatabase = None):
-#     """Prepare mindmap chunks and link person_id if exists"""
-#     chunks = []
-
-#     for topic in json_data.get("main_topics", []):
+#         # Get person_id safely
 #         pid = None
-#         if person_db:
-#             for person_id, pdata in person_db.persons.items():
-#                 if pdata["name"].lower() == topic["introduced_by"].lower():
-#                     pid = person_id
-#                     break
+#         if person_db and introduced_by:
+#             pid = person_db.name_to_id.get(introduced_by)
+#             if not pid:  # fallback: try fuzzy match
+#                 for name in person_db.name_to_id.keys():
+#                     if introduced_by in name:
+#                         pid = person_db.name_to_id[name]
+#                         break
 
-#         chunks.append({
-#             "id": str(uuid.uuid4()),
-#             "text": f"Topic: {topic['topic']} introduced by {topic['introduced_by']} at {topic['introduced_at']}. Sentiment: {topic['sentiment']}.",
-#             "metadata": {"type": "topic", "introduced_by": topic["introduced_by"], "person_id": pid}
+#         mindmap_chunks.append({
+#             "text": f"{topic_name}: {topic_desc}",
+#             "source": "mindmap",
+#             "topic": topic_name,
+#             "person_id": pid
 #         })
 
+#         # Add subtopics too
 #         for sub in topic.get("subtopics", []):
+#             sub_name = sub.get("topic", "").strip()
+#             sub_desc = sub.get("description", "").strip()
+#             sub_intro = sub.get("introduced_by", "").strip().lower()
+
 #             pid_sub = None
-#             if person_db:
-#                 for person_id, pdata in person_db.persons.items():
-#                     if pdata["name"].lower() == sub["introduced_by"].lower():
-#                         pid_sub = person_id
-#                         break
-#             chunks.append({
-#                 "id": str(uuid.uuid4()),
-#                 "text": f"Subtopic: {sub['subtopic']} introduced by {sub['introduced_by']} ({sub['stance']} toward {sub['targeted_at']}). Discussed by {', '.join(sub['discussed_by'])}. Sentiment: {sub['sentiment']}",
-#                 "metadata": {"type": "subtopic", "introduced_by": sub["introduced_by"], "person_id": pid_sub}
+#             if person_db and sub_intro:
+#                 pid_sub = person_db.name_to_id.get(sub_intro)
+#                 if not pid_sub:  # fallback: fuzzy
+#                     for name in person_db.name_to_id.keys():
+#                         if sub_intro in name:
+#                             pid_sub = person_db.name_to_id[name]
+#                             break
+
+#             mindmap_chunks.append({
+#                 "text": f"{sub_name}: {sub_desc}",
+#                 "source": "mindmap",
+#                 "topic": sub_name,
+#                 "person_id": pid_sub
 #             })
 
-#     for rel in json_data.get("relationships", []):
-#         chunks.append({
-#             "id": str(uuid.uuid4()),
-#             "text": f"Relationship: {rel['from']} {rel['type']} {rel['to']} (initiated by {rel['initiated_by']})",
-#             "metadata": {"type": "relationship"}
-#         })
+#     print(f"✅ Prepared {len(mindmap_chunks)} mindmap chunks.")
+#     return mindmap_chunks
 
-#     return chunks
+
+def prepare_mindmap_chunks(json_data, person_db: PersonDatabase = None):
+    """Prepare mindmap chunks and link person_id if exists"""
+    chunks = []
+
+    for topic in json_data.get("main_topics", []):
+        pid = None
+        if person_db:
+            for person_id, pdata in person_db.persons.items():
+                if pdata["name"].lower() == topic["introduced_by"].lower():
+                    pid = person_id
+                    break
+
+        chunks.append({
+            "id": str(uuid.uuid4()),
+            "text": f"Topic: {topic['topic']} introduced by {topic['introduced_by']} at {topic['introduced_at']}. Sentiment: {topic['sentiment']}.",
+            "metadata": {"type": "topic", "introduced_by": topic["introduced_by"], "person_id": pid}
+        })
+
+        for sub in topic.get("subtopics", []):
+            pid_sub = None
+            if person_db:
+                for person_id, pdata in person_db.persons.items():
+                    if pdata["name"].lower() == sub["introduced_by"].lower():
+                        pid_sub = person_id
+                        break
+            chunks.append({
+                "id": str(uuid.uuid4()),
+                "text": f"Subtopic: {sub['subtopic']} introduced by {sub['introduced_by']} ({sub['stance']} toward {sub['targeted_at']}). Discussed by {', '.join(sub['discussed_by'])}. Sentiment: {sub['sentiment']}",
+                "metadata": {"type": "subtopic", "introduced_by": sub["introduced_by"], "person_id": pid_sub}
+            })
+
+    for rel in json_data.get("relationships", []):
+        chunks.append({
+            "id": str(uuid.uuid4()),
+            "text": f"Relationship: {rel['from']} {rel['type']} {rel['to']} (initiated by {rel['initiated_by']})",
+            "metadata": {"type": "relationship"}
+        })
+
+    return chunks
 
 
 def build_mindmap_index(chunks):
+    print(EMBED_MODEL)
     embeddings = EMBED_MODEL.encode([c["text"] for c in chunks], convert_to_numpy=True)
+    print(embeddings.shape)
     dim = embeddings.shape[1]
     index = faiss.IndexFlatL2(dim)
     index.add(embeddings)

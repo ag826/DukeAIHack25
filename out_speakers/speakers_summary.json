@@ -1,100 +1,20 @@
 {
-  "input": "speaker.txt",
-  "total_unique_speakers": 18,
+  "input": "namedREALTIME_transcript.txt",
+  "total_unique_speakers": 2,
   "query_template": "\"{name}\"",
   "pages": 1,
   "pause": 1.5,
   "speakers": [
     {
+      "name": "Andre Cole",
+      "file": "out_speakers/profiles/Andre_Cole_info.json",
+      "total_results": 10
+    },
+    {
       "name": "Adil Gazder",
       "file": "out_speakers/profiles/Adil_Gazder_info.json",
       "total_results": 10
-    },
-    {
-      "name": "Pranshul Bhatnagar",
-      "file": "out_speakers/profiles/Pranshul_Bhatnagar_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Lewis Hamilton",
-      "file": "out_speakers/profiles/Lewis_Hamilton_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Neha Senthil",
-      "file": "out_speakers/profiles/Neha_Senthil_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Joe Rogan",
-      "file": "out_speakers/profiles/Joe_Rogan_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Daymond John",
-      "file": "out_speakers/profiles/Daymond_John_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Mobasserul Haque",
-      "file": "out_speakers/profiles/Mobasserul_Haque_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Aravind Srinivas",
-      "file": "out_speakers/profiles/Aravind_Srinivas_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Mark Cuban",
-      "file": "out_speakers/profiles/Mark_Cuban_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Paul Hudson",
-      "file": "out_speakers/profiles/Paul_Hudson_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Lex Fridman",
-      "file": "out_speakers/profiles/Lex_Fridman_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Michelle Tandler",
-      "file": "out_speakers/profiles/Michelle_Tandler_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "James Sinegal",
-      "file": "out_speakers/profiles/James_Sinegal_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Peter Thiel",
-      "file": "out_speakers/profiles/Peter_Thiel_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Andrew Garfield",
-      "file": "out_speakers/profiles/Andrew_Garfield_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Kevin O'Leary",
-      "file": "out_speakers/profiles/Kevin_O_Leary_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Bill Gates",
-      "file": "out_speakers/profiles/Bill_Gates_info.json",
-      "total_results": 10
-    },
-    {
-      "name": "Paul Varga",
-      "file": "out_speakers/profiles/Paul_Varga_info.json",
-      "total_results": 10
     }
   ],
-  "generated_at": 1762633179.656479
+  "generated_at": 1762656871.16573
 }

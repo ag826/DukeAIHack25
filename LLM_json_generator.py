@@ -7,7 +7,7 @@ import dotenv
 dotenv.load_dotenv()
 
 
-def generate_conversation_mindmap_json(conversation_txt, source_file"):
+def generate_conversation_mindmap_json(conversation_txt, source_file):
     system_prompt = """You are an expert conversation analyst. Your task is to read a multi-speaker dialogue and extract structured information for a mind map.
 
 You must:
