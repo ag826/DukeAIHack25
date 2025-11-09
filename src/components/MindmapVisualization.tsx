@@ -1,133 +1,86 @@
-import { useCallback, useState } from 'react';
-import {
-  ReactFlow,
-  Background,
-  Controls,
-  MiniMap,
-  Node,
-  Edge,
-  useNodesState,
-  useEdgesState,
-  NodeMouseHandler,
-  EdgeMouseHandler,
-} from '@xyflow/react';
-import '@xyflow/react/dist/style.css';
-import { ConversationGraph } from '@/pages/Home';
-import { Card } from '@/components/ui/card';
-import { Slider } from '@/components/ui/slider';
-import { X } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Loader2 } from 'lucide-react';
 
 interface MindmapVisualizationProps {
-  graph: ConversationGraph;
+  conversationId: string | null;
+  userId: string;
 }
 
-export const MindmapVisualization = ({ graph }: MindmapVisualizationProps) => {
-  const [density, setDensity] = useState([100]);
-  const [selectedItem, setSelectedItem] = useState<{
-    type: 'node' | 'edge';
-    conversation: string;
-  } | null>(null);
+export const MindmapVisualization = ({ conversationId, userId }: MindmapVisualizationProps) => {
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const [htmlContent, setHtmlContent] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
 
-  const initialNodes: Node[] = graph.nodes.map((node, index) => ({
-    id: node.id,
-    data: { label: node.label },
-    position: { x: (index % 3) * 200, y: Math.floor(index / 3) * 150 },
-    style: {
-      background: 'hsl(var(--primary))',
-      color: 'hsl(var(--primary-foreground))',
-      border: '1px solid hsl(var(--border))',
-      borderRadius: '8px',
-      padding: '10px',
-    },
-  }));
-
-  const initialEdges: Edge[] = graph.edges.map((edge) => ({
-    id: edge.id,
-    source: edge.source,
-    target: edge.target,
-    style: { stroke: 'hsl(var(--border))' },
-  }));
-
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-  const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-
-  const onNodeMouseEnter: NodeMouseHandler = useCallback((_, node) => {
-    setNodes((nds) =>
-      nds.map((n) =>
-        n.id === node.id
-          ? { ...n, style: { ...n.style, opacity: 0.8 } }
-          : n
-      )
-    );
-  }, [setNodes]);
-
-  const onNodeMouseLeave: NodeMouseHandler = useCallback(() => {
-    setNodes((nds) =>
-      nds.map((n) => ({ ...n, style: { ...n.style, opacity: 1 } }))
-    );
-  }, [setNodes]);
-
-  const onNodeClick: NodeMouseHandler = useCallback((_, node) => {
-    const nodeData = graph.nodes.find((n) => n.id === node.id);
-    if (nodeData) {
-      setSelectedItem({ type: 'node', conversation: nodeData.conversation });
+  useEffect(() => {
+    if (!conversationId || !userId) {
+      setHtmlContent(null);
+      return;
     }
-  }, [graph.nodes]);
 
-  const onEdgeClick: EdgeMouseHandler = useCallback((_, edge) => {
-    const edgeData = graph.edges.find((e) => e.id === edge.id);
-    if (edgeData) {
-      setSelectedItem({ type: 'edge', conversation: edgeData.conversation });
-    }
-  }, [graph.edges]);
+    const fetchHtml = async () => {
+      setLoading(true);
+      try {
+        // ✅ use conv_id to match FastAPI
+        const res = await fetch(
+          `http://localhost:8000/mindmap-viewer?user_id=${encodeURIComponent(
+            userId
+          )}&conv_id=${encodeURIComponent(conversationId)}`
+        );
+
+        if (!res.ok) {
+          console.error('Failed to fetch mindmap HTML:', res.status);
+          setHtmlContent(null);
+          return;
+        }
+
+        const html = await res.text();
+        setHtmlContent(html);
+      } catch (err) {
+        console.error('Error fetching mindmap HTML:', err);
+        setHtmlContent(null);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchHtml();
+  }, [conversationId, userId]);
+
+  if (!conversationId) {
+    return (
+      <div className="flex items-center justify-center h-full text-muted-foreground">
+        Select a conversation to view its mindmap
+      </div>
+    );
+  }
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-full text-muted-foreground gap-2">
+        <Loader2 className="h-8 w-8 animate-spin" />
+        <span>Loading mindmap...</span>
+      </div>
+    );
+  }
+
+  if (!htmlContent) {
+    return (
+      <div className="flex items-center justify-center h-full text-muted-foreground">
+        Failed to load mindmap visualization
+      </div>
+    );
+  }
 
   return (
-    <div className="h-full flex flex-col">
-      <div className="p-4 border-b border-border">
-        <h3 className="text-lg font-semibold text-foreground mb-2">Conversation Map</h3>
-        <div className="flex items-center gap-2">
-          <span className="text-xs text-muted-foreground">Density:</span>
-          <Slider
-            value={density}
-            onValueChange={setDensity}
-            max={100}
-            step={1}
-            className="flex-1"
-          />
-        </div>
-      </div>
-
-      <div className="flex-1 relative">
-        <ReactFlow
-          nodes={nodes}
-          edges={edges}
-          onNodesChange={onNodesChange}
-          onEdgesChange={onEdgesChange}
-          onNodeMouseEnter={onNodeMouseEnter}
-          onNodeMouseLeave={onNodeMouseLeave}
-          onNodeClick={onNodeClick}
-          onEdgeClick={onEdgeClick}
-          fitView
-        >
-          <Background />
-          <Controls />
-          <MiniMap />
-        </ReactFlow>
-
-        {selectedItem && (
-          <Card className="absolute bottom-4 left-4 right-4 p-4 bg-background/95 backdrop-blur">
-            <div className="flex justify-between items-start mb-2">
-              <h4 className="font-medium text-foreground">
-                {selectedItem.type === 'node' ? 'Topic' : 'Connection'}
-              </h4>
-              <button onClick={() => setSelectedItem(null)}>
-                <X className="h-4 w-4 text-muted-foreground" />
-              </button>
-            </div>
-            <p className="text-sm text-muted-foreground">{selectedItem.conversation}</p>
-          </Card>
-        )}
-      </div>
+    <div className="flex flex-col h-full">
+      <iframe
+        // ✅ force remount when convo changes
+        key={conversationId}
+        ref={iframeRef}
+        srcDoc={htmlContent}
+        className="w-full h-full border-0"
+        title="Mindmap Visualization"
+      />
     </div>
   );
 };

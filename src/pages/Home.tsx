@@ -6,6 +6,7 @@ import AmbientRecorder from '@/components/AmbientRecorder';
 import { Button } from '@/components/ui/button';
 import { LogOut } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
+import { ResizablePanelGroup, ResizablePanel, ResizableHandle } from '@/components/ui/resizable';
 
 export interface ConversationGraph {
   nodes: Array<{
@@ -22,11 +23,8 @@ export interface ConversationGraph {
 }
 
 const Home = () => {
-  const { logout } = useAuth();
-  const [selectedConversation, setSelectedConversation] = useState<{
-    id: string;
-    graph: ConversationGraph;
-  } | null>(null);
+  const { logout, user } = useAuth();
+  const [selectedConversationId, setSelectedConversationId] = useState<string | null>(null);
 
   return (
     <div className="min-h-screen bg-background">
@@ -40,19 +38,29 @@ const Home = () => {
         </Button>
       </div>
 
-      <div className="flex h-screen">
-        <ConversationSidebar onSelectConversation={setSelectedConversation} />
-        
-        <div className={`flex-1 transition-all duration-300 ${selectedConversation ? 'mr-96' : ''}`}>
-          <ChatInterface />
-        </div>
+      <ResizablePanelGroup direction="horizontal" className="h-screen">
+        <ResizablePanel defaultSize={20} minSize={15} maxSize={30}>
+          <ConversationSidebar onSelectConversation={setSelectedConversationId} />
+        </ResizablePanel>
 
-        {selectedConversation && (
-          <div className="w-96 border-l border-border bg-background">
-            <MindmapVisualization graph={selectedConversation.graph} />
-          </div>
+        <ResizableHandle withHandle />
+
+        <ResizablePanel defaultSize={selectedConversationId ? 50 : 80}>
+          <ChatInterface />
+        </ResizablePanel>
+
+        {selectedConversationId && (
+          <>
+            <ResizableHandle withHandle />
+            <ResizablePanel defaultSize={30} minSize={20} maxSize={50}>
+              <MindmapVisualization 
+                conversationId={selectedConversationId} 
+                userId={user?.uid || ''} 
+              />
+            </ResizablePanel>
+          </>
         )}
-      </div>
+      </ResizablePanelGroup>
     </div>
   );
 };

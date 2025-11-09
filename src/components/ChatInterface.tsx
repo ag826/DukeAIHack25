@@ -13,6 +13,7 @@ interface Message {
   role: 'user' | 'assistant';
   content: string;
   timestamp?: string;
+  history?: JSON;
 }
 
 export const ChatInterface = () => {
@@ -41,30 +42,51 @@ export const ChatInterface = () => {
     // ⿢ Add temporary "assistant thinking"
     setMessages((prev) => [...prev, { role: 'assistant', content: '...' }]);
 
+    
+
     try {
-      // ⿣ Ping backend directly
-      const res = await fetch('http://localhost:8000/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: user.uid,
-          message: userMessage,
-        }),
-      });
+  // 1️⃣ Get all conversations
+  const res1 = await fetch(
+    'http://localhost:8000/get-conversations?user_id=${encodeURIComponent(user.uid)}'
+  );
+  if (!res1.ok) {
+    console.error('❌ backend returned non-OK for get-conversations', res1.status);
+    return;
+  }
+  const data1 = await res1.json();
+  console.log('📥 /get-conversations response:', data1);
 
-      //if (!res.ok) throw new Error(Backend returned ${res.status});
-      const data = await res.json();
+  // 2️⃣ Extract mindmap info or summary text for context
+  const history = (data1.conversations || []).map((conv) => ({
+    role: 'assistant',
+    content: JSON.stringify(conv.mindmap || conv.graph || conv.speakers || {}),
+  }));
 
-      const reply = data.reply || 'No response';
-      console.log('LLM reply:', reply);
+  // 3️⃣ Add current chat message
+  history.push({ role: 'user', content: userMessage });
 
-      // ⿤ Replace last "..." with actual text
-      setMessages((prev) => {
-        const updated = [...prev];
-        updated[updated.length - 1] = { role: 'assistant', content: reply };
-        return updated;
-      });
-    } catch (error) {
+  // 4️⃣ Send to /chat
+  const res = await fetch('http://localhost:8000/chat', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      userId: user.uid,
+      message: userMessage,
+      history, // ✅ now properly formatted
+    }),
+  });
+
+  const data = await res.json();
+  const reply = data.reply || 'No response';
+  console.log('LLM reply:', reply);
+
+  // replace “...” in UI
+  setMessages((prev) => {
+    const updated = [...prev];
+    updated[updated.length - 1] = { role: 'assistant', content: reply };
+    return updated;
+  });
+} catch (error) {
       console.error('Chat error:', error);
       toast.error('Failed to reach backend.');
       setMessages((prev) => {

@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useAuth } from '@/hooks/useAuth';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Card } from '@/components/ui/card';
-import { ConversationGraph } from '@/pages/Home';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -10,12 +9,10 @@ interface Conversation {
   id: string;
   timestamp: string;
   speakers: string[];
-  graph: ConversationGraph;
-  // if your backend returns extra fields, you can add them here
 }
 
 interface ConversationSidebarProps {
-  onSelectConversation: (conversation: { id: string; graph: ConversationGraph } | null) => void;
+  onSelectConversation: (conversationId: string | null) => void;
 }
 
 export const ConversationSidebar = ({ onSelectConversation }: ConversationSidebarProps) => {
@@ -26,7 +23,6 @@ export const ConversationSidebar = ({ onSelectConversation }: ConversationSideba
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   useEffect(() => {
-    // no user yet -> don't fetch
     if (!user) return;
 
     const fetchConversations = async () => {
@@ -42,10 +38,7 @@ export const ConversationSidebar = ({ onSelectConversation }: ConversationSideba
         const data = await res.json();
         console.log('📥 /get-conversations response:', data);
 
-        // data shape from backend:
-        // { count: number, conversations: [ { id, timestamp, speakers, graph, ... } ] }
         const convs = (data.conversations || []).map((c: any) => {
-          // normalize timestamp
           const ts =
             typeof c.timestamp === 'string'
               ? c.timestamp
@@ -55,7 +48,6 @@ export const ConversationSidebar = ({ onSelectConversation }: ConversationSideba
             id: c.id,
             timestamp: ts,
             speakers: Array.isArray(c.speakers) ? c.speakers : [],
-            graph: (c.graph || c.mindmap || {}) as ConversationGraph,
           } as Conversation;
         });
 
@@ -77,7 +69,7 @@ export const ConversationSidebar = ({ onSelectConversation }: ConversationSideba
       onSelectConversation(null);
     } else {
       setSelectedId(conv.id);
-      onSelectConversation({ id: conv.id, graph: conv.graph });
+      onSelectConversation(conv.id);
     }
   };
 

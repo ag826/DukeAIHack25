@@ -254,7 +254,7 @@ def build_rag_engine():
     then return them bundled.
     """
     person_db = PersonDatabase()
-    json_folder = "./out_speakers/profiles"
+    json_folder = "C:/Users/slneha/Documents/AI Hackathon 2025/backend/out_speakers/profiles"
     for filename in os.listdir(json_folder):
         if filename.endswith(".json"):
             json_path = os.path.join(json_folder, filename)

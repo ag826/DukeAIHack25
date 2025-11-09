@@ -10,6 +10,15 @@ const AmbientRecorder = () => {
   const { user } = useAuth();
   const [isRecording, setIsRecording] = useState(false);
 
+  // Speaker mapping UI state
+  const [showSpeakerModal, setShowSpeakerModal] = useState(false);
+  const [speakerMapping, setSpeakerMapping] = useState<Record<string, string>>({});
+  const [speakerSummaries, setSpeakerSummaries] = useState<Record<string, string>>({});
+  const [transcriptPath, setTranscriptPath] = useState<string | null>(null);
+  const [phaseMeta, setPhaseMeta] = useState<{ userId: string; timestamp: string } | null>(
+    null
+  );
+
   const startRecording = async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({
@@ -51,20 +60,13 @@ const AmbientRecorder = () => {
         try {
           const blob = new Blob(chunksRef.current, { type: 'audio/webm' });
           const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+          const filename = `recording_${timestamp}.webm`;
 
-          // Simulate an absolute file path on your local filesystem
-          // Replace this base path with your real data folder path on disk
-          
-          const absoluteFilePath = "C:/Users/slneha/Documents/AI Hackathon 2025/data/recording_"+timestamp+".webm";
-
-          console.log('🗂 File saved at (absolute path):', absoluteFilePath);
-
-          // Pass only the absolute file path to backend
           if (user) {
             const formData = new FormData();
             formData.append('userId', user.uid);
             formData.append('timestamp', timestamp);
-            formData.append('filePath', blob, absoluteFilePath); // pass absolute path
+            formData.append('filePath', blob, filename);
 
             try {
               const res = await fetch('http://localhost:8000/process-audio', {
@@ -72,33 +74,49 @@ const AmbientRecorder = () => {
                 body: formData,
               });
 
+              const text = await res.text();
+              console.log('📥 phase 1 raw:', text);
 
-              const responseText = await res.text();
-              console.log("Raw response:", res);
-
-              try {
-                const data = JSON.parse(responseText);
-                console.log("Parsed JSON:", data);
-                toast.success('Recording processed successfully!');
-              } catch (e) {
-                console.error("Failed to parse JSON:", e);
-                toast.error('Invalid JSON response from server.');
+              if (!res.ok) {
+                throw new Error(`phase 1 failed: ${res.status} ${text}`);
               }
-            } catch (error) {
-              console.error('❌ Failed to process audio:', error);
+
+              const phase1Json = JSON.parse(text);
+              toast.success('Transcript ready. Please map speakers.');
+
+              const tp = phase1Json.transcript_path as string;
+              const speakerSummary = phase1Json.speaker_summary || {};
+
+              // Parse speaker summaries: { "SPEAKER_00": "summary text", ... }
+              const baseMapping: Record<string, string> = {};
+              const summaries: Record<string, string> = {};
+              
+              if (speakerSummary && typeof speakerSummary === 'object') {
+                Object.entries(speakerSummary).forEach(([speaker, summary]) => {
+                  baseMapping[speaker] = speaker; // default name
+                  summaries[speaker] = summary as string;
+                });
+              }
+
+              setSpeakerMapping(baseMapping);
+              setSpeakerSummaries(summaries);
+              setTranscriptPath(tp);
+              setPhaseMeta({ userId: user.uid, timestamp });
+              setShowSpeakerModal(true);
+            } catch (err) {
+              console.error('❌ Failed to process audio (phase 1):', err);
               toast.error('Error processing recording.');
             }
           }
 
           chunksRef.current = [];
           setIsRecording(false);
-          console.log('✅ Recording finished and processed.');
+          console.log('✅ Recording finished and phase 1 done.');
         } catch (error) {
           console.error('Error saving recording:', error);
           toast.error('Error saving recording.');
         }
 
-        // Stop all tracks
         if (mediaRecorderRef.current) {
           mediaRecorderRef.current.stream.getTracks().forEach((track) => track.stop());
         }
@@ -109,21 +127,112 @@ const AmbientRecorder = () => {
     });
   };
 
+  const handleConfirmMapping = async () => {
+    if (!transcriptPath || !phaseMeta) {
+      setShowSpeakerModal(false);
+      return;
+    }
+
+    try {
+      const res2 = await fetch('http://localhost:8000/process-audio-final', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          transcript_path: transcriptPath,
+          userId: phaseMeta.userId,
+          timestamp: phaseMeta.timestamp,
+          mapping: speakerMapping,
+        }),
+      });
+
+      const text2 = await res2.text();
+      console.log('📥 phase 2 raw:', text2);
+
+      if (!res2.ok) {
+        throw new Error(`phase 2 failed: ${res2.status} ${text2}`);
+      }
+
+      toast.success('Conversation processed and saved!');
+    } catch (err) {
+      console.error('❌ Failed to run phase 2:', err);
+      toast.error('Error applying speaker names.');
+    } finally {
+      setShowSpeakerModal(false);
+    }
+  };
+
   useEffect(() => {
     startRecording();
   }, []);
 
   return (
-    <Button
-      onClick={stopAndSaveRecording}
-      variant="destructive"
-      size="sm"
-      className="fixed bottom-4 right-4 z-50"
-      disabled={!isRecording}
-    >
-      <Square className="mr-2 h-4 w-4" />
-      Stop Recording
-    </Button>
+    <>
+      <Button
+        onClick={stopAndSaveRecording}
+        variant="destructive"
+        size="sm"
+        className="fixed bottom-4 right-4 z-50"
+        disabled={!isRecording}
+      >
+        <Square className="mr-2 h-4 w-4" />
+        Stop Recording
+      </Button>
+
+      {showSpeakerModal && (
+        <div className="fixed inset-0 bg-black/40 z-[100] flex items-center justify-center p-4">
+          <div className="bg-background rounded-lg shadow-lg p-6 w-full max-w-2xl space-y-4">
+            <h2 className="text-lg font-semibold text-foreground">Name the Speakers</h2>
+            <p className="text-sm text-muted-foreground">
+              We detected these speakers. Please give them names based on their summaries.
+            </p>
+            <div className="space-y-4 max-h-96 overflow-y-auto">
+              {Object.keys(speakerMapping).length === 0 && (
+                <p className="text-sm text-muted-foreground">No speakers detected.</p>
+              )}
+              {Object.entries(speakerMapping).map(([key, val]) => (
+                <div key={key} className="border border-border rounded-lg p-4 space-y-3">
+                  <div className="flex items-center gap-3">
+                    <span className="text-sm font-medium text-muted-foreground min-w-[100px]">
+                      {key}
+                    </span>
+                    <input
+                      className="flex-1 border border-input bg-background rounded-md px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+                      placeholder="Enter name..."
+                      value={val}
+                      onChange={(e) =>
+                        setSpeakerMapping((prev) => ({
+                          ...prev,
+                          [key]: e.target.value,
+                        }))
+                      }
+                    />
+                  </div>
+                  {speakerSummaries[key] && (
+                    <p className="text-xs text-muted-foreground bg-muted/50 rounded p-2">
+                      {speakerSummaries[key]}
+                    </p>
+                  )}
+                </div>
+              ))}
+            </div>
+            <div className="flex justify-end gap-2 pt-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setShowSpeakerModal(false)}
+              >
+                Cancel
+              </Button>
+              <Button size="sm" onClick={handleConfirmMapping}>
+                Save & Continue
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
