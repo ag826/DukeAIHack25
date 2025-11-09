@@ -16,6 +16,8 @@ import torch
 from fastapi import FastAPI, UploadFile, Form, HTTPException, Query, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydub import AudioSegment  # To convert WebM to WAV
+from typing import Dict
+
 
 
 import firebase_admin
@@ -25,6 +27,11 @@ import tempfile
 
 from . import Audio_to_text
 from . import LLM_json_generator
+from . import Named_Transcript
+from . import RAG_FRAMEWORK as RAGF
+
+from pydantic import BaseModel
+
 
 # ---- config ----
 SERVICE_ACCOUNT = "backend/ai-hackathon-4e25e-firebase-adminsdk-fbsvc-5557fc6879.json"
@@ -106,9 +113,11 @@ async def process_audio(
     # 2) Run the transcription script
     audio_file = webm_to_mp3(f"data/recording_{timestamp}.webm", f"data/recording_{timestamp}.wav")
     transcript_path = os.path.join("data/transcript.txt")
-
+    
     try:
       Audio_to_text.get_text(audio_file, transcript_path)
+      transcript_path= Named_Transcript.rename_speakers_in_transcript(transcript_path)
+
     except Exception as e:
       raise HTTPException(status_code=500, detail=f"Transcription failed: {e}")
 
@@ -150,7 +159,8 @@ async def process_audio(
         raise HTTPException(status_code=500, detail=f"Failed to save conversation: {e}")
 
     return {"status": "ok", "speakers": speakers}
-    
+
+ 
     
 def normalize_timestamp(ts):
     if hasattr(ts, "isoformat"):
@@ -159,14 +169,64 @@ def normalize_timestamp(ts):
         return ts.to_datetime().isoformat()
     return ts
 
+def build_graph_from_mindmap(mindmap):
+    """
+    Your new mindmap looks like:
+      {
+        "participants": [...],
+        "main_topics": [...],
+        "relationships": [...]
+      }
+
+    We'll turn that into:
+      {
+        "nodes": [...],
+        "edges": [...]
+      }
+    so React can keep using conv.graph
+    """
+    nodes: List[Dict[str, Any]] = []
+    edges: List[Dict[str, Any]] = []
+
+    # topics → nodes
+    for idx, topic in enumerate(mindmap.get("main_topics", [])):
+        nodes.append({
+            "id": f"topic-{idx}",
+            "label": topic.get("topic", f"Topic {idx+1}"),
+            "speaker": topic.get("introduced_by"),
+            "type": "Topic",
+        })
+        # subtopics → nodes + edge from topic
+        for sidx, sub in enumerate(topic.get("subtopics", [])):
+            sub_id = f"topic-{idx}-sub-{sidx}"
+            nodes.append({
+                "id": sub_id,
+                "label": sub.get("subtopic", f"Subtopic {sidx+1}"),
+                "speaker": sub.get("introduced_by"),
+                "type": "Subtopic",
+            })
+            edges.append({
+                "from": f"topic-{idx}",
+                "to": sub_id,
+                "type": sub.get("stance", "elaboration"),
+            })
+
+    # relationships → edges
+    for rel in mindmap.get("relationships", []):
+        edges.append({
+            "from": rel.get("from"),
+            "to": rel.get("to"),
+            "type": rel.get("type", "relation"),
+        })
+
+    return {"nodes": nodes, "edges": edges}
+
+
 @app.get("/get-conversations")
 def get_conversations(
     user_id: str = Query(..., description="Firebase Auth UID"),
 ):
-    """
-    Return conversations for a user, but also parse the `mindmap` field if it's a JSON string.
-    """
-    # try to order by timestamp, fallback if no index
+    # try to order by timestamp
     try:
         convs_ref = (
             db.collection("conversations")
@@ -178,7 +238,8 @@ def get_conversations(
 
     docs = convs_ref.stream()
 
-    results = []
+    results: List[Dict[str, Any]] = []
+
     for doc in docs:
         data = doc.to_dict() or {}
         data["id"] = doc.id
@@ -187,42 +248,67 @@ def get_conversations(
         if "timestamp" in data:
             data["timestamp"] = normalize_timestamp(data["timestamp"])
 
-        # ---------- NEW PART: parse mindmap ----------
-        parsed_mindmap = None
-        graph = None
-        speakers = data.get("speakers")
-
         mindmap_val = data.get("mindmap")
-        if isinstance(mindmap_val, str):
-            # it's a JSON string, try to parse
-            try:
-                parsed = json.loads(mindmap_val)
-                # expect a list like your example
-                if isinstance(parsed, list) and len(parsed) > 0:
-                    parsed_mindmap = parsed
-                    # take speakers from first block if not already set
-                    if not speakers and isinstance(parsed[0], dict):
-                        speakers = parsed[0].get("speakers")
-                    # take graph from first block
-                    first_graph = parsed[0].get("graph") if isinstance(parsed[0], dict) else None
-                    if first_graph:
-                        graph = first_graph
-            except json.JSONDecodeError:
-                # leave parsed_mindmap = None
-                parsed_mindmap = None
-        elif isinstance(mindmap_val, list):
-            # somehow already stored as array
-            parsed_mindmap = mindmap_val
-            if len(mindmap_val) > 0 and isinstance(mindmap_val[0], dict):
-                if not speakers:
-                    speakers = mindmap_val[0].get("speakers")
-                graph = mindmap_val[0].get("graph")
+        speakers = data.get("speakers") or []
 
-        # set cleaned fields
-        data["speakers"] = speakers or []
+        parsed_mindmap: Optional[Dict[str, Any]] = None
+        graph: Optional[Dict[str, Any]] = None
+
+        # CASE 1: new style — already a dict
+        if isinstance(mindmap_val, dict):
+            parsed_mindmap = mindmap_val
+
+            # extract speakers from participants if not already set
+            if not speakers and isinstance(parsed_mindmap.get("participants"), list):
+                speakers = [
+                    p.get("name")
+                    for p in parsed_mindmap["participants"]
+                    if isinstance(p, dict) and p.get("name")
+                ]
+
+            # build a graph so frontend can do conv.graph
+            graph = build_graph_from_mindmap(parsed_mindmap)
+
+        # CASE 2: old style — JSON string
+        elif isinstance(mindmap_val, str):
+            try:
+                tmp = json.loads(mindmap_val)
+            except json.JSONDecodeError:
+                tmp = None
+
+            # if it was a list: [ { ... } ]
+            if isinstance(tmp, list) and tmp:
+                parsed_mindmap = tmp[0]
+            elif isinstance(tmp, dict):
+                parsed_mindmap = tmp
+
+            if parsed_mindmap:
+                if not speakers and isinstance(parsed_mindmap.get("participants"), list):
+                    speakers = [
+                        p.get("name")
+                        for p in parsed_mindmap["participants"]
+                        if isinstance(p, dict) and p.get("name")
+                    ]
+                graph = build_graph_from_mindmap(parsed_mindmap)
+
+        # CASE 3: old style — list in Firestore
+        elif isinstance(mindmap_val, list) and mindmap_val:
+            # take first element
+            first = mindmap_val[0]
+            if isinstance(first, dict):
+                parsed_mindmap = first
+                if not speakers and isinstance(first.get("participants"), list):
+                    speakers = [
+                        p.get("name")
+                        for p in first["participants"]
+                        if isinstance(p, dict) and p.get("name")
+                    ]
+                graph = build_graph_from_mindmap(first)
+
+        # write cleaned fields back
+        data["speakers"] = speakers
         if parsed_mindmap is not None:
             data["mindmap"] = parsed_mindmap
-        # expose a top-level graph so React can do conv.graph
         if graph is not None:
             data["graph"] = graph
 
@@ -233,8 +319,49 @@ def get_conversations(
         "conversations": results,
     }
     
-    
+# we'll keep a global rag_engine
+rag_engine = None
 
+@app.on_event("startup")
+def load_rag():
+    """build once when server starts"""
+    global rag_engine
+    print("🟡 building RAG engine...")
+    try:
+        # you need to expose a function in RAG_FRAMEWORK that returns
+        # (person_db, mindmap_index, mindmap_chunks)
+        # I'll show the pattern below
+        rag_engine = RAGF.build_rag_engine()
+        print("✅ RAG engine ready")
+    except Exception as e:
+        print("❌ failed to build RAG engine:", e)
+        rag_engine = None
+
+
+@app.post("/chat")
+async def chat(payload: dict):
+    """
+    payload = {
+      "userId": "...",
+      "message": "...",
+      "history": [...]
+    }
+    """
+    print("📩 /chat called with:", payload)
+    if rag_engine is None:
+      print('hi')
+      raise HTTPException(status_code=500, detail="RAG not initialized")
+    print("hi")
+    user_msg = payload.get("message", "")
+    history = payload.get("history", [])
+
+    try:
+        reply = RAGF.answer_with_rag(rag_engine, user_msg, history)
+    except Exception as e:
+        print("❌ RAG error:", e)
+        raise HTTPException(status_code=500, detail=str(e))
+
+    return {"reply": reply}
     
 @app.get("/user-profile")
 def get_user_profile(user_id: str = Query(..., description="Firebase Auth UID"), email: str | None = None):
@@ -322,110 +449,3 @@ async def create_voice_profile(
 ):
 
     return {"status": "ok", "dim": 5}
-
-'''
-
-def webm_bytes_to_tensor(file_bytes: bytes) -> torch.Tensor:
-    """
-    Try to convert a .webm to a 16k mono tensor using pydub/ffmpeg.
-    If ffmpeg is not installed, this will raise.
-    """
-    from pydub import AudioSegment  # import here so we can catch errors above
-
-    audio = AudioSegment.from_file(io.BytesIO(file_bytes), format="webm")
-    audio = audio.set_channels(1).set_frame_rate(16000)
-    out_io = io.BytesIO()
-    audio.export(out_io, format="wav")
-    out_io.seek(0)
-
-    # turn wav bytes into numpy
-    audio_wav = AudioSegment.from_wav(out_io)
-    samples = np.array(audio_wav.get_array_of_samples()).astype(np.float32)
-    samples = samples / (2 ** 15)
-    tensor = torch.from_numpy(samples).unsqueeze(0)
-    return tensor
-
-
-def wav_bytes_to_tensor(file_bytes: bytes) -> torch.Tensor:
-    """
-    Simpler path: if the frontend already gives us 16k mono wav, use this.
-    """
-    from pydub import AudioSegment
-
-    audio = AudioSegment.from_file(io.BytesIO(file_bytes), format="wav")
-    audio = audio.set_channels(1).set_frame_rate(16000)
-    samples = np.array(audio.get_array_of_samples()).astype(np.float32)
-    samples = samples / (2 ** 15)
-    tensor = torch.from_numpy(samples).unsqueeze(0)
-    return tensor
-
-
-def average_embeddings(embs: List[np.ndarray]) -> np.ndarray:
-    stacked = np.stack(embs, axis=0)
-    return stacked.mean(axis=0).astype("float32")
-    
-@app.post("/voice-profile")
-async def create_voice_profile(
-    user_id: str = Form(...),
-    sample_0: Optional[UploadFile] = None,
-    sample_1: Optional[UploadFile] = None,
-    sample_2: Optional[UploadFile] = None,
-):
-    # collect uploaded files
-    files = [sample_0, sample_1, sample_2]
-    file_bytes_list: List[bytes] = []
-
-    for f in files:
-        if f is None:
-            continue
-        b = await f.read()
-        file_bytes_list.append(b)
-
-    if not file_bytes_list:
-        # frontend sent nothing
-        raise HTTPException(status_code=400, detail="no samples uploaded")
-
-    emb_list: List[np.ndarray] = []
-
-    for idx, b in enumerate(file_bytes_list):
-        # try webm first
-        wav_tensor: torch.Tensor
-        try:
-            print(f"[backend] trying to decode sample {idx} as webm...")
-            wav_tensor = webm_bytes_to_tensor(b)
-        except Exception as e_webm:
-            # if that fails, try wav
-            print(f"[backend] webm decode failed: {e_webm!r}")
-            try:
-                print(f"[backend] trying to decode sample {idx} as wav instead...")
-                wav_tensor = wav_bytes_to_tensor(b)
-            except Exception as e_wav:
-                print(f"[backend] wav decode also failed: {e_wav!r}")
-                raise HTTPException(
-                    status_code=400,
-                    detail=(
-                        "Could not decode audio. Make sure ffmpeg is installed "
-                        "or send 16k mono wav from the frontend."
-                    ),
-                )
-
-        # now we have a tensor -> embedding
-        with torch.no_grad():
-            emb = spk_model.encode_batch(wav_tensor)
-        emb_list.append(emb.squeeze().cpu().numpy())
-
-    # avg embedding for stability
-    avg_emb = average_embeddings(emb_list)
-
-    # save ONLY the embedding to Firestore
-    db.collection("users").document(user_id).set(
-        {
-            "hasVoiceProfile": True,
-            "voiceEmbedding": 
-            "voiceEmbeddingModel": "speechbrain/spkrec-ecapa-voxceleb",
-        },
-        merge=True,
-    )
-
-    return {"status": "ok", "dim": len(avg_emb)}
-'''
