@@ -89,7 +89,7 @@ def scrape_link_text(url, max_chars=15000):
 # -------- Google search + scrape helper --------
 GOOGLE_API = "https://www.googleapis.com/customsearch/v1"
 
-def google_search_person(person_name, api_key, cx, num_pages=1, pause=1.5, query_template="{name}"):
+def google_search_person(query_template, person_name, api_key, cx, num_pages=1, pause=1.5):
     links, texts = [], []
     rendered_q = query_template.format(name=person_name).strip()
 

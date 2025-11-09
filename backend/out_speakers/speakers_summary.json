@@ -1,0 +1,15 @@
+{
+  "input": "namedREALTIME_transcript.txt",
+  "total_unique_speakers": 1,
+  "query_template": "\"{name}\"",
+  "pages": 1,
+  "pause": 1.5,
+  "speakers": [
+    {
+      "name": "Adil Keku Gazder",
+      "file": "out_speakers/profiles/Adil_Keku_Gazder_info.json",
+      "total_results": 3
+    }
+  ],
+  "generated_at": 1762682782.5159
+}
