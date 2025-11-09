@@ -1,0 +1,747 @@
+GASLIGHT CAMPFIRE
+Unicorn-Office: Monday, July 22, 2013
+
+[     Doug A.:] Don't know how many of you guys saw the discussion this weekend about the Cincinnati tech community. I really enjoyed following along
+[     Doug A.:] I'd be very interested in hearing from more of our community why they participate: Alan Audette, Ben Stafford, Geoff Cornwall, Jim Anders, (especially) Joe Herbers
+[     Doug A.:] and you too Carin Meier
+[     Josh O.:] Carin Meier: yeah, we love LOL
+[     Josh O.:] We signed them up to take their core classes there, this year
+[👊 THE BEAR 👊.:] LOL
+[    Carin M.:] I have to find a new school for our kids
+[    Carin M.:] sigh
+--- 11:45 AM ---
+[    Carin M.:] considering homeschooling my son and then doing Leaves of Learning
+[     Josh O.:] yeah, last year we did core stuff at home and sent thme to leaves for the stuff like art and gym
+[     Josh O.:] this year they are taking math, science, history, and language arts on Tues/Thur
+[    Carin M.:] If you send them for core stuff - do you still have to do all the paperwork for being home schooled?
+[     Josh O.:] yes
+[    Carin M.:] ok
+[     Josh O.:] but the paperwork really isn't that hard
+[     Josh O.:] you write a letter twice a year, basically
+[    Carin M.:] cool I might talk to you more about that
+[     Josh O.:] the biggest thing is either doing standardized testing at a facility or finding a teacher to do an eval
+[    Carin M.:] right
+[     Josh O.:] Wendy is taking Zoe for her eval today and Brayden just did his last week
+[     Doug A.:] here's a token gif from the top of /r/gifs
+[     Doug A.:] http://24.media.tumblr.com/c84a312ad151c179a3f446a8a7c62167/tumblr_mmnhhdXldc1rhi0rbo1_500.gif
+[     Alan A.:] Doug, I missed the conversation. Was this on Twitter?
+[     Josh O.:] And blog posts
+--- 11:50 AM ---
+[     Josh O.:] I think Doug is mostly referring to this: http://words.cdmwebs.com/let-s-start-with-why
+[Doug A. tweeted:] Let's Start with Why: http://t.co/nLU5KJysTw -- @cdmwebs, http://twitter.com/cdmwebs/status/359006444173000704
+[     Doug A.:] For sure: ^^^^
+[     Alan A.:] thx, I was pretty unplugged this weekend
+[    Geoff C.:] Chris' post I thought hit it right on the head. (I was finally able to catch up last night on twitter / blog posts.) 
+[     Doug A.:] It's kinda hard to have an extended conversation 140 characters at a time, but I'm really interested in what motivates you to participate
+--- 11:55 AM ---
+[👊 THE BEAR 👊.:] bbq's are great places to have conversations
+[     Josh O.:] indeed, they were!
+[👊 THE BEAR 👊.:] we should have more of them
+[    Carin M.:] +1
+--- 12:05 PM ---
+[👊 THE BEAR 👊.:] i'll do another one as long as burgers and sausages are good enough
+[     Josh O.:] +1
+[👊 THE BEAR 👊.:] who knows, maybe cdmwobs and dougalcorn will even show up
+[      Ben S.:] Doug Alcorn:  I'm still trying to figure out best way to express thoughts.  Was tricky to follow Twitter conversation and I'm still a bit confused as to the main goals.  Is it to build a better tech community?  Increase exposure of tech community to non-tech community?  And, at the risk of offending Miss Manners, I need to figure out how to make it on Scott's invite list. :)
+[     Josh O.:] woah
+[     Josh O.:] for shame, BEAR
+--- 12:10 PM ---
+[👊 THE BEAR 👊.:] you're on it
+[👊 THE BEAR 👊.:] i should set up an email list or something
+[👊 THE BEAR 👊.:] what's good software for that these days?
+[👊 THE BEAR 👊.:] cincytechbbq or something - i don't want to limit bbqs to being just at my house
+[      Ben S.:] Ha, thanks!
+[     Josh O.:] an email list?  Mailchimp is my goto usually
+[👊 THE BEAR 👊.:] word
+[      Ben S.:] http://i.minus.com/ix8kSpghnwQMl.gif
+[Josh O. played a sound:] trololo
+[      Ben S.:] My favorite troll face ->
+[      Ben S.:] http://www.whoateallthepies.tv/wp-content/uploads/2012/09/dempsey.gif
+[Josh O. tweeted:] If Prince William and Kate Middleton have a daughter and DON'T call her Princess Leia, they're wasting everybody's time. #RoyalBaby -- @DeathStarPR, http://twitter.com/DeathStarPR/status/359323118617104385
+[    Geoff C.:] So, I haven't been in Cincinnati probably as long as most of you (moved here from DC / worked a lot in SF / grew up just outside NYC). But I see the potential for a tech community that could be very unique from those in certain aspects, yet still maintain a lot of the core stuff Nate talked about at QC Merge. 
+--- 12:15 PM ---
+[     Alan A.:] I second Ben on everything, especially on the BBQ! I've never actually thought about why I do it, just love doing it & being  part of something so transformative
+[      Ben S.:] I also think it's a matter of figuring out what resonates with people regarding being active in the community.  For NYTM, it seems like their format (structured demos of working software) seems to work.  That *may* not be the thing that works here.  Obviously the social aspect seems to work here (web/tech drinkup), but demo stuff still seems to be silo-ed by specific technology.  Maybe something more community service related could be used to build community (whether it's building tech with open data, or going out to build a Habitat for Humanity home)
+[    Geoff C.:] And I completely agree, BBQs (especially with home brewed beer) are the best place for these kind of conversations! (I'm pretty sure I saw that we have that skill set in our tech community too.)
+[     Josh O.:] I think the goal was to add demos on to the Web/tech drinkup
+[    Geoff C.:] I think that would be a huge plus for the web/tech drinkup.
+[     Josh O.:] Chris Moore still won't give a straight answer if that is still his current thinking :)
+--- 12:20 PM ---
+[     Josh O.:] And the service related ideas are good imo too
+[     Josh O.:] Ben Stafford: there was some light hackathon planning around a civic hackathon for cincy, this weekend
+[Doug A. has left the room]
+[     Josh O.:] https://github.com/OpenHack-Cincinnati/hackathons
+[      Ben S.:] Josh: Yeah, saw that (why I mentioned it), although it got a bit lost in Twitter conversation - there were a couple kind of parallel conversations going on.
+[      Ben S.:] I wasn't sure if points of conversation had moved away from OpenHack-Cincinnati on purpose or accidentally.
+[     Josh O.:] Well, Chris Moore challenged people to blog more, so I did: http://thoughts.unicoder.io/building-communities-are-hard
+--- 12:25 PM ---
+[     Josh O.:] I think his why post was a general response to that and other tweets
+[     Josh O.:] I think a demo environment could go a long way
+[      Ben S.:] Gotcha.
+[     Josh O.:] in helping educate and unite some of the tech clusters
+[      Ben S.:] May just need to identify the "influencers" in other tech groups to get cross-technology demos to actually happen
+[     Alan A.:] I think your right Josh. The demo environment needs to be less of "how it works" and more of "why we are doing it", to an extent
+[     Alan A.:] easy to get lost in details of frameworks your not familiar with
+[     Josh O.:] yeah, showing a how takes more than 5-10 minutes :)
+[     Alan A.:] What are the other big tech communities around here? .Net & java obviously because of the mega-corps...
+--- 12:30 PM ---
+[     Josh O.:] .net, java, js, ruby, cocoa are the ones I know of
+[     Josh O.:] that are around frameworks
+[      Ben S.:] I *think* the PHP UG is pretty healthy, but not positive
+[     Josh O.:] oh yeah, and php
+[      Ben S.:] Gerard is a good connector with PHP
+[     Josh O.:] We have stolen him into Meteor.js land now :)
+[      Ben S.:] Meteornapped
+[      Ben S.:] Luckily, I don't think PHPUG made him turn in his badge.
+[     Alan A.:] meteroid
+--- 12:50 PM ---
+[Joel T. has left the room]
+[Carin M. has left the room]
+--- 01:00 PM ---
+[Carin M. has entered the room]
+--- 01:05 PM ---
+[    Chris M.:] It's not about the events, that's my point.
+[    Chris M.:] We have those. I'm reluctant to start more until we talk about the why.
+[    Chris M.:] That's what will bring it all together
+[    Chris M.:] Events are just a part of it.
+[Doug A. has entered the room]
+[    Chris M.:] Demos, hackathons, etc are reasons to get together and do things that work toward our shared vision
+[    Chris M.:] Does that make sense?
+[     Alan A.:] communication problem, what if we start with a hashtag? Might be the easiest way to get things rolling...
+[    Chris M.:] I have no preference for the tool.
+[    Chris M.:] Whatever allows us to have open dialogue is the most important thing.
+[      Ben S.:] I like the idea of not diluting/fragmenting with more events, but how do we grow community without events?  Or are you thinking that we use existing ones to unify?
+[    Chris M.:] Also, why is the Cincy maker group private?
+--- 01:10 PM ---
+[     Alan A.:] just thinking about simplicity for now.. mvp
+--- 01:10 PM ---
+[    Chris M.:] @Ben Stafford: YES!
+[    Chris M.:] bring them together. one REALLY BIG, REALLY loud voice
+[    Chris M.:] instead of 100 smaller, quieter ones
+[    Chris M.:] point the Enquirer at the firehose of amazing innovation activity
+[     Alan A.:] we need a unified communication channel. Segmented events are good (ruby, php, etc.) as are meta-web (drink up). Biggest issue is the channel I htink
+[      Ben S.:] Right, it does seem like the obvious place that has momentum (at least in our fragment) is the drinkup.
+[      Ben S.:] But how do we get drinkup momentum to translate into growing and giving back to Cincinnati...
+[Chris N. has entered the room]
+[    Chris M.:] By defining a purpose we all understand and can get behind
+--- 01:15 PM ---
+[    Chris M.:] When we all have the same goal, it's easy to convince others to join us
+[    Chris M.:] What is YOUR reason for joining user groups, teaching, training, volunteering?
+[    Chris M.:] Are we all on the same page? Then let's say that and get started.
+[    Chris M.:] The things we do should move all of us toward that goal every day.
+[James S. has entered the room]
+[    Chris M.:] Make sense?
+[     Josh O.:] Chris Moore: the group was private when Chris Nelson made it
+[     Josh O.:] maybe he can change it?
+[     Josh O.:] I think most of us have at least one reason similar to your list
+[     Josh O.:] for why we do it
+[    Chris N.:] It was originally the Maker Organizer group
+--- 01:20 PM ---
+[    Chris N.:] I'll change it
+[Doug A. has left the room]
+[    Chris M.:] That's not good enough, Josh. If it were, we wouldn't being frustrated about demos right now.
+[    Chris N.:] Dammit. Privacy cannot be changed
+[    Chris M.:] you guys:
+[    Chris M.:] http://cdmwebs.com/s/Why_We_Wrote_a_Blog-20130722-132256.png
+[Paul H. uploaded: 7090567351_b001737434.jpeg]
+[    Chris M.:] We suck at part 2.
+[Doug A. has entered the room]
+[    Chris M.:] Did you watch Nate's video?
+[    Chris M.:] We have makers. Lots of great, creative ones.
+[     Paul H.:] In real life.
+[    Chris M.:] We suck at telling people.
+[     Paul H.:] It was like 3d
+[    Chris M.:] Let's get better!
+[      Ben S.:] Chris Moore: Makes sense to me, although it does seem like there still needs to be discussion about the goal.  From the twitter conversation, it seems like there are lots of goals (better startup environment, better funding environment) that people may have.  IMO, (and take it for what it's worth), the primary goal should be more altruistic - using our talents to make our larger community (Cincy) better  - whether that's improving STEM education, community service work, building open data APIs...  It's fine that those other goals exist, but I don't think they unify a tech community into growing.
+[     Doug A.:] THE BEAR: I'm so bummed I missed the bearbbq
+[    Chris M.:] YES!
+[    Chris M.:] Ben is on it.
+[    Chris M.:] If you could write that in one sentence, what would it be?
+[    Chris M.:] It's more than "funding" and "startups" and "VC"
+[      Ben S.:] Hmm, let me try taking out every third word :)
+[    Chris M.:] we have the talent and tools to *really* make a difference
+--- 01:25 PM ---
+[    Chris M.:] that's what I want to do
+[      Ben S.:] I think the less altruistic goals should NEVER be obvious - should only be a happy side effect.
+[    Chris M.:] the brandery and the startup community is welcome to come along
+[Joel T. has entered the room]
+[Bill B. has entered the room]
+[👊 THE BEAR 👊.:] i don't care at all about funding or VC
+[     Josh O.:] neither do I
+[     Josh O.:] I spend my nights working on shit that won't ever earn me direct dollars
+[👊 THE BEAR 👊.:] and for me startups are just a byproduct of people doing cool shit, i don't care much about them either
+[      Ben S.:] Exactly, it fragments the potential audience
+[      Ben S.:] I love the enthusiam and energy of founders and people in that scene, but that scene is not for everyone.
+[      Ben S.:] Chris Moore:  Hard to to one sentence because I feel that it oversimplifies so many aspects.  If you just said "make Cincinnati a place we all want to live" leaves out way too much of the story.
+[     Josh O.:] No, I was very put off by my brush with Brandery
+[     Josh O.:] Ben Stafford: that is close to what I said on Sunday in here
+[     Alan A.:] "It's more than funding, startups and VC, it's us"
+[     Alan A.:] something like that?
+[     Alan A.:] it's Cincinnati
+[     Josh O.:] Make Cincinnati a more vibrant place for technology and people who love it, to thrive
+--- 01:30 PM ---
+[Alex H. has left the room]
+[     Alan A.:] Play on QCMerge... It's moving Cincinnati forward
+[    Chris M.:] Keep going
+[    Chris M.:] It's been suggested that QCMerge is it. Queen City Merge.
+[    Chris M.:] I didn't like it at first.
+[    Chris M.:] The conference could just be a part of it
+[     Alan A.:] Technology. Design. Innovation. Moving Cincinnati Forward.
+[     Josh O.:] Making Cincinnati Flourish
+[Peter K. has entered the room]
+[    Chris M.:] Keep going!
+[Chris M. played a sound:] yeah
+[    Geoff C.:] Who's your primary audience for 'telling'? 
+[    Chris M.:] everyone else
+[    Chris M.:] everyone who isn't at user groups
+[    Chris M.:] at conferences
+[    Chris M.:] let's show them what we can do
+[    Geoff C.:] Here in Cincy, or outside?
+[    Chris M.:] tell them about flying drones with computers
+[    Chris M.:] not about the code, not right away
+[     Doug A.:] I'm personally really interested in getting people (in Cinci) who aren't currently engaged with tech to become so
+[    Chris M.:] Start with Cincy
+[     Alan A.:] To those in Cinci, "Come join us". To those outside: "Look what we have going on"
+--- 01:35 PM ---
+[    Chris M.:] build a fanbase
+--- 01:35 PM ---
+[      Ben S.:] I think we have to be careful about making it sound "declarative" and like we're the only ones doing good things.  Something along lines of: Using our "tech" talents to benefit our community.
+[    Chris M.:] let them help us tell the story
+[    Chris N.:] Doug A: yes, me too
+[     Alan A.:] I think its ok to be declarative, as long as its not exclusionary
+[     Alan A.:] we're saying what we stand for, and why we exist
+[     Doug A.:] yes, Alan Audette
+[Michelle T. has entered the room]
+[      Ben S.:] It is a very fine line
+[     Josh O.:] Alan Audette: I agree with you
+[     Alan A.:] most good things in life are
+[    Chris M.:] People don't buy what you do, they buy why you do it.
+[    Chris M.:] Why do we do what we do?
+[    Chris M.:] Why do we take personal time to run user groups? 
+[     Josh O.:] Making Cincinnati flourish through innovation because we love our city
+[    Chris N.:] I (we) believe that the best way for Cincinnati to continue to become a vital, thriving community is by building a community of makers and creators
+[    Chris M.:] This is where @Michelle Taute might be able to really help
+[    Chris M.:] She's good at hearing what we're saying and making it powerful.
+[    Chris N.:] maybe, she's good at words
+[Ry W. has entered the room]
+[    Chris M.:] Ry Walker: read the transcript
+[     Josh O.:] yeah, this is a dangerous trap, crafting words
+[     Josh O.:] He can't can he?
+[Kenny G. has entered the room]
+[     Josh O.:] visitors don't get to see the logs
+[    Geoff C.:] But it's not just b/c we love a city. You build community b/c it makes people flourish. 
+[       Ry W.:] yeah no transcript link :(
+[    Chris M.:] not at all, it's probably the most powerful thing we can do.
+--- 01:40 PM ---
+[    Chris M.:] crap, sorry
+[    Chris M.:] I'll gist it maybe?
+[     Josh O.:] Chris Moore: just add him to the room
+[Carin M. has left the room]
+[     Josh O.:] Chris Moore: we did this same exercise at Gaslight a long time ago, it was hard and frustrating, at least for me
+[    Chris M.:] we made it: https://github.com/gaslight/handbook/blob/master/about-gaslight.md
+[    Chris M.:] it IS hard and frustrating, but it has to happen
+[Bruce H. has entered the room]
+[     Alan A.:] "We're driving innovation through an amazingly talented community. We're moving Cincinnati Forward."
+[    Chris M.:] I like it!
+[     Alan A.:] Possibly make the first part more specific, maybe not
+[ Michelle T.:] I think before you talk to people you have to know:
+[    Chris N.:] Dig it
+[    James S.:] ship it
+[    Chris M.:] Let's wait for Michelle
+[    Peter K.:] "amazingly talented"
+[    Chris N.:] ridonkulously talented?
+--- 01:45 PM ---
+[      Ben S.:] I'm not 100% happy with the word "innovation" as it often gets aligned with startups, but I don't have an alternative.  Could get to like it.
+[    Chris M.:] let's take it back
+[      Ben S.:] Innovation still works for open govt data, etc.
+[     Alan A.:] maybe replace "through" from "from"
+[    Chris M.:] If I learned anything from Mad Men: "If you don't like what's being said, change the conversation."
+[Mark H. has entered the room]
+[     Josh O.:] I like "through"
+[     Alan A.:] agreed moorechris
+[     Josh O.:] some people call that :trollface:
+[      Ben S.:] Chris Moore: Agree, point taken
+[     Josh O.:] haha
+[👊 THE BEAR 👊.:] If I learned anything form Mad Men it's how to drink a lot at work
+[👊 THE BEAR 👊.:] oh wait, i learned that while sharing an office with gaslight
+[      Ben S.:] I need to figure out how to work at work after today's conversation :)
+[     Josh O.:] Ben Stafford: lost cause, just drink and speak platitudes
+[👊 THE BEAR 👊.:] *pours some brown liquor*
+[       Ry W.:] someone post a link to a transcript
+[     Josh O.:] one sec, working on it
+[       Ry W.:] gotta know what will prevent Ben from working :)
+[    Chris M.:] stupid campfire
+[     Josh O.:] https://gist.github.com/queso/6055966
+[     Josh O.:] not the easiest way to read
+[     Josh O.:] Bruce Hubbard, Ry Walker, Jim Anders, Joe Herbers ^^
+[    Chris M.:] working on it
+--- 01:50 PM ---
+[     Josh O.:] Well, it's been real peeps, I have to go adopt my step-daughter!  See you later.
+[     Doug A.:] congrats/good luck Josh Owens
+[      Ben S.:] Awesome!
+[     Josh O.:] thx
+[    Chris M.:] nice!
+[    Chris M.:] https://gist.github.com/cdmwebs/6055994
+[    Chris M.:] how about that?
+[👊 THE BEAR 👊.:] no good, my punches don't come through
+[    Chris M.:] shut it
+[    Chris M.:] https://github.com/precipice/campfire_export FTW!
+[     Joel T.:] conagrat Josh :)
+[     Joel T.:] u know hat I mean
+[    Chris M.:] What happened to Michelle?
+--- 01:55 PM ---
+[Chris M. tweeted:] Don't eat a carrot you see on the street even if it smells  okay trust me -- @RealCarrotFacts, http://twitter.com/RealCarrotFacts/status/357553471295193088
+[Alex H. has entered the room]
+[     Doug A.:] To get this back on previous subject, I'd like to link to Indy Hall's "Community with a Purpose" page:
+[     Doug A.:] http://www.indyhall.org/purpose
+[     Doug A.:] I agree with Alan Audette, we need some common channel to highlight the various things that are going on
+[    Chris M.:] And my point was that there are existing channels
+--- 02:00 PM ---
+[    Chris M.:] Does it make sense to see if we can align and do something instead of starting yet another one?
+[     Doug A.:] yea, I'm on board with that too
+[Michelle T. has left the room]
+[     Doug A.:] does it matter which one we pick?
+[Michelle T. has entered the room]
+[    Chris M.:] Michelle's back!
+[     Doug A.:] There's Michelle Taute
+[     Alan A.:] We can, we just need to align on one that is reliable and accessible
+[     Alan A.:] I mentioned twitter because it is easy and everyone already has it
+[ Michelle T.:] I'm back. Had to do some real work.
+[    Chris M.:] everyone in our circles, Alan Audette
+[ Michelle T.:] I think a good exercise it called "thinking backward." if all this stuff you dreamed about happened, what would be different?
+[     Doug A.:] Alan Audette, I'm confused now. Are we going to get Twitter to rally behind our common purpose?
+[ Michelle T.:] Then you work backward to figure out how to make those things happen.
+[      Ben S.:] That IndyHall page is pretty good (remember seeing Chris tweet it out previously) - focus on the community building rhetoric and it seems to be exactly what we're talking about.
+[     Alan A.:] no, just proposing a hashtag as the primary communication channel
+[     Doug A.:] ah, ok. I remember you saying that now
+[ Michelle T.:] That IndyHall page is nice, but it applies to one thing (IndyHall). Not everything tech in Philly, right?
+[    Geoff C.:] Building community while being centrally located is a lot different than what we're trying to do. 
+--- 02:05 PM ---
+[     Alan A.:] I think its an example of what we are talking about... building community
+[     Alan A.:] just one example of how it can be done
+[       Ry W.:] I'd love to continue discussion that came out of my post http://rywalker.com/what-the-cincinnati-tech-scene-needs — if "innovation" is the word, I see Cintrifuse as a good shell to do great things through, and get some built in support along the way (vs. starting from scratch)
+[     Doug A.:] What I like about that purpose page is it clearly identifies the motivation behind what they are doing. It doesn't say anything really about how they do it
+[      Ben S.:] Personally, not a big fan of Twitter as threads of conversation get mashed together, but can deal.  Also, it sounds like we're not on same page about "channels".  When Chris mentions channels, it seems like he's talking about a thing that's already going, like the Drinkup, but Alan is talking about communication channels.
+[    Chris M.:] we still need that central hub: Geoff Cornwall
+[    Chris M.:] Maybe Cintrifuse *could* be it.
+[    Chris M.:] I'm not quite as convinced as Ry, but let's see if they're amicable
+[    Geoff C.:] Totally agree. Is it a physical location though? 
+[    Chris M.:] I won't immediately stirke it
+[    Chris M.:] yes
+[       Ry W.:] It's also a pot of money
+[    Chris M.:] Ry: got any pictures?
+[       Ry W.:] For projects...
+[    Chris M.:] welllllllllll
+[ Michelle T.:] But what exactly *is* the common purpose? Specifically? It doesn't seem like everyone agrees on that.
+[     Alan A.:] *if you are into that sort of thing, Ry :P
+[     Doug A.:] Michelle Taute: I think that's the biggest thing
+[    Chris M.:] I liked what Alan wrote, Michelle
+[    Chris M.:] "We're driving innovation through an amazingly talented community. We're moving Cincinnati Forward."
+[    Chris M.:] It's a good start
+[       Ry W.:] I think common purpose == driving innovation (that's the most broad way to define it, to be as inclusive as possible)
+[      Ben S.:] IMO, it's not about money - it's about us, with tech talents, doing things regardless of reward.
+[    Chris M.:] It needs something, but I like the "tone"
+[    Chris M.:] money is a side effect
+[    Chris M.:] completely agree
+[    Chris M.:] when the money comes together with talent and creativity, that's when magic happens
+[       Ry W.:] I agree with @innonate that makers have to be at the core
+[    Chris M.:] we need to get better at funding unfundable ideas, too
+[     Doug A.:] how does somthing like GDI fit in with "driving innovation"?
+[ Michelle T.:] I think making a bit more specific makes it more powerful. Check out the messaging for the 99% conference:
+[ Michelle T.:] http://99u.com/conference
+[    Chris M.:] not everything needs to have an immediate ROI
+[    Chris M.:] like Haile
+[    Chris M.:] something between the two could be huge
+[      Ben S.:] But where the money is shouldn't guide how community works since it then becomes a sponsorship/marketing play.
+[       Ry W.:] Haile could be a good home too
+[    Chris M.:] +1
+[    Chris M.:] Eric is really smart
+--- 02:10 PM ---
+[       Ry W.:] They have $200M fund that generates $1M+ to spend each year on cool shit Eric likes :)
+[    Chris M.:] he has a good vision. in fact, I'd jump in with him before Cinrtifuse at the moment.
+[    Chris M.:] Only because I know more about him and Haile, though
+[    Chris M.:] Nothing Cintrifuse has broadcast gets me excited
+[    Chris M.:] And it could just be messaging, but that's a big piece
+[    Chris M.:] maybe the most important one
+[      Ben S.:] Doug Alcorn: Good point.  Maybe they're creating makers to drive innovation.
+[     Doug A.:] "We are concentrating our efforts and resources in areas about which Carol and Ralph were most passionate: Arts and Culture, Community Development, Education, and Human Services."
+[     Doug A.:] http://www.haileusb.org/About_Us/
+[    Chris M.:] I would share a space with Haile in a skinny minute
+[Carin M. has entered the room]
+[    Chris M.:] I want to be in a building with a bunch of other smart, passionate people with a shared goal
+[    Chris M.:] like Gaslight x 100
+[       Ry W.:] Definitely a more altruistic mission
+[     Doug A.:] +1
+[    Chris M.:] I want that space
+[    Chris M.:] But what we're talking about fits in with those, too
+[     Doug A.:] I'd settle for just x10, Chris Moore
+[Dewayne G. has entered the room]
+[       Ry W.:] I'd say reach out to Eric. Erin seems a bit protective of that relationship, so maybe through her.
+[    Chris M.:] Will do
+[       Ry W.:] No matter what the "centralized" resource - I know Cintrifuse will participate one way or another.
+[    Bruce H.:] +1000 "I want to be in a building with a bunch of other smart, passionate people with a shared goal"
+--- 02:15 PM ---
+[👊 THE BEAR 👊.:] what is this shared goal?
+[    Chris M.:] You tell us
+[     Alan A.:] drinking good beer
+[    Chris M.:] We're still working on it
+[👊 THE BEAR 👊.:] i don't know, that's why i asked you
+[    Chris M.:] I like Alan's:
+[    Chris M.:] "We're driving innovation through an amazingly talented community. We're moving Cincinnati Forward."
+[👊 THE BEAR 👊.:] is that a goal?
+[👊 THE BEAR 👊.:] or just something we do
+[    Chris M.:] you want a BHAG?
+[     Alan A.:] I think that sums up a very broad goal nicely. We'll need to be a little more specific on the first part, not necessarily with the words, but definitely with the actions
+[    Chris M.:] I don't have an immediate goal that I can put in to words, THE BEAR
+[     Bill B.:] I like Alan's but would whack the overt shout out to QCM and replace it with some words about being open or sharing. Something like "We're driving innovation by sharing the work of an amazingly talented community."
+[    Chris M.:] nothing tangible, but I'll keep thinking
+[👊 THE BEAR 👊.:] i'm thinking more along the lines of not using the phrase "shared goal", rather than defining a "BHAG" - because i can't imagine what that shared goal would be
+[    Chris M.:] like Michelle said:
+[    Chris M.:] I think a good exercise it called "thinking backward." if all this stuff you dreamed about happened, what would be different?
+--- 02:20 PM ---
+[Peter K. has left the room]
+[Mark H. has left the room]
+[Alex H. has left the room]
+[     Alan A.:] Bill, we were talking about it tying into QCMerge somehow. I don't think we have any specifics on it yet though
+[    Chris M.:] free and open access to technology
+[     Doug A.:] increased regional revenue from technology? lower unemployment in the region? higher per capita income? 
+[    Chris M.:] training and mentoring
+[    Chris M.:] a larger middle class
+[       Ry W.:] Thinking about all this... I think the problem we all have with status quo is the lack of a NYTM-like monthly meeting that is drawing in all sorts of new people into it, and gives us a venue to see cool shit
+[     Bill B.:] Alan: I'm totally down with that happening. I think in the long term though it will sound repetitive once people have heard that tag line enough or seen it often enough on t-shirts. :)
+[    Chris M.:] more options outside traditional higher ed
+[👊 THE BEAR 👊.:] none of those are things i set out to do on a daily basis
+[    Chris M.:] but are they things the things you do on a daily basis work toward?
+[    Chris M.:] why did you help with the training discussion?
+[    Chris N.:] Creating with technology would be a basic literacy skill
+[Peter K. has entered the room]
+[👊 THE BEAR 👊.:] because training people and helping people interests me
+[     Alan A.:] Chris M, those are definitely ambitious goals
+[👊 THE BEAR 👊.:] those things are byproducts
+[    Chris M.:] why? what is interesting about it?
+[    Chris M.:] does it make you feel good?
+[👊 THE BEAR 👊.:] indeed
+--- 02:25 PM ---
+[Nick T. has entered the room]
+[Public c. has entered the room]
+[    Chris M.:] dang it
+[    Chris M.:] this lack of transcript sucks
+[👊 THE BEAR 👊.:] yeah
+[    Chris M.:] Nick just popped in
+[Paul V. has entered the room]
+[       Ry W.:] how bout we put up a discourse server
+[👊 THE BEAR 👊.:] i like using this way better than twitter, but the guest access is not good
+[    Chris M.:] updating the gist
+[    Chris M.:] Doug has experience with that
+[    Chris M.:] lol
+[     Doug A.:] I've been working with discourse for the last couple weeks
+[     Doug A.:] and also xmpp
+[     Doug A.:] for multi-user chat rooms
+[     Doug A.:] what domain would we put up discourse for? 
+[    Chris M.:] transcript
+[    Chris M.:] https://gist.github.com/cdmwebs/6055994
+[    Chris M.:] for those who just joined
+[       Ry W.:] i deployed this when discourse came out: http://hubcincy.herokuapp.com/
+[       Ry W.:] never shared
+[       Ry W.:] :)
+[    Chris M.:] orly?
+[       Ry W.:] probably crappy buggy early version *shrug*
+[    Chris M.:] can you get it up to date?
+--- 02:30 PM ---
+[    Chris M.:] we can move there
+[     Doug A.:] it's kinda hard to host discourse on heroku
+[       Ry W.:] yeah this is on heroku
+[       Ry W.:] maybe i ran into problem = why i quit
+[    Chris M.:] digital ocean
+[    Chris M.:] STOP
+[       Ry W.:] yeah it's not loading - screw my deployment
+[       Ry W.:] can't login w/ twitter
+[     Doug A.:] digital ocean is what i use
+[    Chris M.:] hub.qcmerge.com?
+[    Chris M.:] idk where it lives
+[       Ry W.:] works for me
+[     Alan A.:] I like that
+[     Doug A.:] how would that be different than the other google groups we already have?
+[    Chris M.:] as long as it's accessible
+[       Ry W.:] more accessible
+[    Chris M.:] I like the multiple service login
+[     Alan A.:] for one, it gives the group cred from QCMerge, vs. a seemingly random group thats been around for a day
+[     Doug A.:] ok, i can set it up on the qcmerge domaon
+[       Ry W.:] rock on
+[    Chris M.:] anyway, THE BEAR, and others
+[       Ry W.:] How about, lean startup style, you/we plan a QCMerge "Event" - I'll try to get Cintrifuse + others from startup community involved...
+[    Chris M.:] what can we say is a shared goal?
+[    Chris M.:] the event is the how, though
+--- 02:35 PM ---
+[👊 THE BEAR 👊.:] i don't know that i have a goal
+[    Chris M.:] if we can't all agree on the why, it will disappoint
+[👊 THE BEAR 👊.:] so i probably can't help with that
+[       Ry W.:] my goal = monthly event where i can see awesome demos. with 800 people attending
+[    Chris M.:] but why?
+[    Chris M.:] what does the event do for us?
+[    Chris M.:] for you?
+[       Ry W.:] because it'll help drive innovation for whole community
+[    Chris M.:] that
+[    Chris M.:] let's agree on that, then getting people excited about events that work toward it
+[    Chris M.:] let's get something bold and powerful. the first thing they see.
+[    Chris M.:] something we can tell our families about
+[       Ry W.:] hell i want my family to want to come to the event
+[    Chris M.:] "We're creating a new future by ...."
+[       Ry W.:] :)
+[       Ry W.:] but I have a weird family
+[    Chris M.:] "We're driving innovation through an amazingly talented community. We're moving Cincinnati Forward."
+[    Chris M.:] We're moving Cincinnati Forward
+[    Chris M.:] We're moving Cincinnati Forward
+[    Chris M.:] We're moving Cincinnati Forward
+[       Ry W.:] cincinnatiforward.com ?
+[       Ry W.:] damn squatters
+--- 02:40 PM ---
+[    Chris M.:] and how is this different from cincinnati innovates?
+[    Chris M.:] http://blog.cincinnatiinnovates.com/
+[    Chris M.:] See what I mean?
+[Michelle T. has left the room]
+[Nick T. has left the room]
+[Public c. has left the room]
+[    Chris M.:] How many of these have similar goals?
+[    Chris M.:] Lots of little voices
+[       Ry W.:] We can all have same goal
+[       Ry W.:] Our difference should be in how we execute
+[       Ry W.:] Cincinnati Innovates does nothing for me
+[    Chris M.:] The competition could certainly be a part of it
+[       Ry W.:] Later...
+[       Ry W.:] Let's start with what's most obvious?
+[       Ry W.:] Agile.
+[     Doug A.:] agile innovations ideating forward
+[    Chris M.:] I keep thinking about open source
+[    Chris M.:] and how things happen there
+[       Ry W.:] Nice doug :)
+[    Chris M.:] decentralized, but unified
+[     Doug A.:] i'm afraid of words that don't mean anything, 'cause then they can mean anything
+[       Ry W.:] You talking about "agile" as not meaning anything? — I was saying "let's do the first card on the kanban" build a kick ass, recurring event - then pull another card later...
+[    Chris M.:] but the events already happen, Ry
+[       Ry W.:] Not kick ass ones
+[       Ry W.:] I run 3 non-kick ass ones
+[    Chris M.:] but why?
+[       Ry W.:] Web tech drinkup is the best... but is mostly networking
+[      Ben S.:] Kick ass ones don't tend to be "lean".
+[    Chris M.:] because theres no vision
+[    Chris M.:] come hack on something
+[    Chris M.:] come hack on something that will help provide food to inner city children
+--- 02:45 PM ---
+[    Chris M.:] come hack on something that improves people's lives. here. in your city.
+[    Chris M.:] build something amazing that can help people here, then show that off
+[       Ry W.:] that might get me a few more attendees
+[       Ry W.:] but not 800
+[    Chris M.:] it'll get the core group
+[    Chris M.:] the excited ones
+[    Chris M.:] the noisemakers
+[     Alan A.:] I think the audience needs to be local, but not the theme. You'r from Cinci, come show the rest of us how you are changing the world
+[    Chris M.:] the ones who will tell everyone they know about the amazing work that's happening
+[    Chris M.:] that'll get 8,000
+[Ben S. has left the room]
+[       Ry W.:] @paul visscher what do you think about all this? :)
+--- 02:50 PM ---
+[     Paul V.:] I like the "improves people's lives" thing
+[     Paul V.:] I think I like focusing on the building rather than where the building is happening.
+[       Ry W.:] that's a lot different from "driving innovation"...
+[       Ry W.:] do you want to go to an event where we're hearing people talk about all the cool ways people in Cincy are improving the lives of other Cincinnatians?
+[       Ry W.:] Sounds sorta interesting to me, but not too much like NYTM
+[     Paul V.:] that's true. so I guess my question is: are you trying to drive innovation or make a community where innovation happens? I think they are two different things.
+[     Alan A.:] I want to hear about the cool things that people are building in cincinnati, but not necessarily limited to things that happen only within cincinnati
+[       Ry W.:] If innovation is core, tech is the core of innovation = we get to see cool tech demos
+[     Paul V.:] building community means you can sustain innovation
+[       Ry W.:] If it can be cool tech demos about helping people — that's even better. but all innovation is ultimately about helping people
+[    Chris M.:] don't focus 100% on NYTM
+[    Chris M.:] it's just a part
+[     Paul V.:] what is NYTM?
+[    Chris M.:] a piece of the whole
+--- 02:55 PM ---
+[    Chris M.:] http://nytm.org
+[    Chris M.:] the demo is just a piece, Ry
+[    Chris M.:] join their mailing list
+[    Chris M.:] all day long there's interesting conversations
+[    Chris M.:] people connecting with the right people at the right time
+[    Chris M.:] demos are just once a month events
+[    Chris M.:] they work with the mayor's office
+[    Chris M.:] they work with developers for good
+[    Chris M.:] http://nytm.org/programs/policy
+[Chris M. pasted:]
+                Make New York City the most wired city on earth by providing every New Yorker and every New York business regardless of location access to the fastest broadband networks at the lowest cost.
+                Reinvent the education system to allow every child, young adult, and all New Yorkers to develop the skills necessary to thrive in a 21st century economy.
+                Make New York City the clear choice for entrepreneurs, software engineers, and other technically skilled professionals to start a business and build a career by making it easy to find partners, financing, office space and housing, employees, and access to markets.
+                Support the appointment of a Deputy Mayor for Technology Innovation with an appropriate budget charged with the responsibility of reinventing New York City government with a 21st century framework.
+                Make New York City’s system for civic participation the most open, transparent, accountable, participatory, and innovative in the world.
+                Make New York City the most citizen-connected community on earth, where its people connect with each other to unleash a powerful 21st century economy: selling to each other, renting to each other, funding each other, sharing with each other, coworking with each other, meeting up with each other, and hiring each other.
+                Support public policies that would ensure that technology and the opportunities available to the tech community can reach all New York’s citizens, and help solve issues related to healthcare, human rights and justice, gender equality, transportation, the environment, and other issues of fundamental importance to all New Yorkers.
+[    Chris M.:] that's the core of NYTM
+[       Ry W.:] Now it is
+[       Ry W.:] but it started smaller
+[       Ry W.:] we have to start a journey
+--- 03:00 PM ---
+[    Chris M.:] If it's a demo event you want, then start it.
+[    Chris M.:] I do not own it.
+[    Chris M.:] I never have.
+[       Ry W.:] yes you do
+[       Ry W.:] :)
+[       Ry W.:] kidding
+[       Ry W.:] i want to collaborate on it
+[       Ry W.:] only way it gets awesome
+[    Chris M.:] it's a part of this. we can tie it in to the Drinkup. I don't care *how* it happens.
+[    Chris M.:] I care *why* it happens. I want the first tiny batch to leave feeling energized and motivated.
+[    Chris M.:] I want them to leave and start working on something for the next month.
+[       Ry W.:] each person will bring their own why + maybe leave with another (if done right) --- maybe that's a better why --- "Inspiration"
+[    Chris M.:] we've been doing that.
+[    Chris M.:] you think putting a tweet wall up on the wall changes anything?
+[    Chris M.:] I don't.
+[    Chris M.:] we can do better. we will.
+[    Chris M.:] we're really close
+[    Chris M.:] I promise
+[    Carin M.:] Hey we are all talking about it
+--- 03:05 PM ---
+[    Chris M.:] +a
+[    Chris M.:] +1
+[    Carin M.:] that is a big improvement right there
+[    Chris M.:] +1000
+[       Ry W.:] my mind's spinning - going back to work for a while - i'm struggling w/ the battle between consensus-building vs. leadership.
+--- 03:10 PM ---
+[    Chris M.:] hint: they're the same thing
+[       Ry W.:] Web Tech Drinkup is a success because the Chris's just did it
+[    Chris M.:] no
+[       Ry W.:] and did it well
+[    Chris M.:] there was a need
+[       Ry W.:] true
+[    Chris M.:] it's like a startup
+[       Ry W.:] but well-executed
+[    Chris M.:] we saw a problem
+[    Chris M.:] http://www.brainyquote.com/quotes/quotes/m/martinluth166528.html
+[     Doug A.:] the purpose resonated with the community at large
+[       Ry W.:] yeah i guess i meant 'consensus-seeking'
+[     Alan A.:] There needs to be a need, but there also has to be a leader. If nobody steps up, we'll all stare blankly at each other
+[    Chris M.:] I can't shove things down people's throats
+[    Chris M.:] tried it
+[     Alan A.:] I said leader, not dictator :)
+[    Chris M.:] happy to lead. part of it is making sure we're saying the same things.
+[    Chris M.:] if we're not, we both look silly
+[     Alan A.:] agreed
+[    Chris M.:] we need the same message when we talk to people outside the community
+[     Alan A.:] yes, definitely. Consistency is critical
+--- 03:15 PM ---
+[       Ry W.:] how about a call for volunteers (from you) - i'll help make it happen, I know Josh wants to help
+[    Chris M.:] for what?
+[    Chris M.:] the demos?
+[    Chris M.:] we can do that
+[       Ry W.:] would be good to get collaboration w/ Haile, Cintrifuse, CincyTech, etc.
+[    Chris M.:] I also need sponsors next month
+[       Ry W.:] UC
+[    Chris M.:] would LOVE for ANYONE from cintrifuse to show up
+[    Chris M.:] no one has been to anything
+[    Chris M.:] drinkups, qcmerge
+[    Chris M.:] even with invitations
+[       Ry W.:] I can help w/ that
+[    Chris M.:] that's the most discouraging part
+[    Chris M.:] I don't feel like what we're doing is relevant
+[    Chris M.:] True story:
+[       Ry W.:] They're noobs - need schooled
+[    Chris M.:] I invited someone from Cincy Tech. They said they didn't have time to hang out with a bunch of developers.
+[    Chris M.:] Talk about a punch in the gut.
+[    Chris M.:] That'll take the wind out of your sails.
+[       Ry W.:] That's a big problem
+[     Josh O.:] Haha
+[     Alan A.:] Sounds like they don't understand how to build stuff
+[    Chris M.:] BUT THEY CONTROL THE VOICE!
+[       Ry W.:] I'll help w/ all that - i'll be "startup community" delegate - which really sucks for me but i want to fix this
+[    Chris M.:] if that's what they say about us, why do we have any reason to feel differently
+[    Chris M.:] thanks, Ry
+[       Ry W.:] BTW
+[       Ry W.:] that's why this should be about "innovation" vs. "tech"
+--- 03:20 PM ---
+[    Chris M.:] yes, I agree
+--- 03:20 PM ---
+[    Chris M.:] tech is not very descriptive
+[       Ry W.:] even though it's really about tech
+[    Chris M.:] it leaves room for Haile and others
+[       Ry W.:] yep
+[     Alan A.:] Chris, because they are not our boss. It sucks that they don't understand, but that is their loss, not ours. 
+[       Ry W.:] Alan Audette: no - it's everyones loss
+[     Josh O.:] Shrug, Wendy is working to build up the indie authors/readers around here
+[       Ry W.:] as Chris said, they have the megaphone
+[    Chris M.:] yep
+[    Chris M.:] we need that
+[     Josh O.:] That's not really tech, but hopefully innovative 
+[    Chris M.:] and, whether they know it or not, they need us
+[       Ry W.:] so.....
+[       Ry W.:] work?
+[     Alan A.:] Ry: true. But you can't build anything without a maker. A maker can build something without capital
+[       Ry W.:] Alan Audette: i agree completely - i love the NYTM attitude that it's about making cool shit, regardless of fundability
+[    Chris M.:] Let's talk with Cintrifuse and Haile
+[       Ry W.:] that's why we need to control what is demoed
+[       Ry W.:] we = makers
+[    Chris M.:] see what we can come up with
+[    Chris M.:] we can do demos
+[       Ry W.:] k
+[    Chris M.:] I'll get the form that Josh made out there
+[    Chris M.:] I also need a sponsor next month
+[       Ry W.:] how much?
+[       Ry W.:] ($)
+[    Chris M.:] $500/$300
+--- 03:25 PM ---
+[    Chris M.:] $500 is a "first drink" sponsor, $300 is "venue" sponsor
+[    Chris M.:] it's going to be tough to do demos at Japp's, but we'll try it and see
+[Chris M. tweeted:] We’re going to try @NYTM style demos at the next #CWTDrinkup! Apply here: http://t.co/Lb0BRJm67e We need sponsors, too! Please RT! -- @cdmwebs, http://twitter.com/cdmwebs/status/359394169573228544
+[       Ry W.:] ok i have 3:30 meeting + a backlog of stuff to do - thanks for inviting me into this...
+[    Chris M.:] thanks for being involved!
+[       Ry W.:] that'll be a good learning experience if nothing else :)
+[       Ry W.:] later guys
+--- 03:30 PM ---
+[Peter K. has left the room]
+[Andy J. has entered the room]
+--- 03:40 PM ---
+[Ry W. has left the room]
+--- 03:50 PM ---
+[Joel T. has left the room]
+[Andy J. has left the room]
+[Doug R. has entered the room]
+--- 04:00 PM ---
+[    James S.:] http://i.imgur.com/O6uJau9.jpg
+[    James S.:] https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTPt7be-A8_k5ASrP_EtvV3wWj_XhWoz_GTFkxZGhud2xR8q_f
+[    James S.:] https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTPt7be-A8_k5ASrP_EtvV3wWj_XhWoz_GTFkxZGhud2xR8q_f
+[    James S.:] https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTPt7be-A8_k5ASrP_EtvV3wWj_XhWoz_GTFkxZGhud2xR8q_f#jpg
+[👊 THE BEAR 👊.:] that's way better than any stupid dorito shell
+[    Chris M.:] lol
+[    Chris M.:] make a blt like that and we're talking
+[👊 THE BEAR 👊.:] you can put mayo on it if you want
+[👊 THE BEAR 👊.:] but that'd be gross
+--- 04:05 PM ---
+[     Doug A.:] http://i.imgur.com/vNJN4aQ.gif
+[👊 THE BEAR 👊.:] wetsuit: pooped.
+[👊 THE BEAR 👊.:] which would be terrible because there's not much space in a wetsuit
+[     Doug A.:] related
+[     Doug A.:] http://i.imgur.com/w2eh4XX.gif
+--- 04:20 PM ---
+[    Carin M.:] A kitten for everyone today
+[    Carin M.:] http://25.media.tumblr.com/970ddf504ef2d1701eb5eefa2c93755b/tumblr_mnapwu66KJ1r5c792o1_250.gif
+[👊 THE BEAR 👊.:] http://i.imgur.com/Kp5Mg0Q.gif
+[    Carin M.:] This is what I think of when I think of the Groovy lang
+[    Carin M.:] http://24.media.tumblr.com/1df39d35b4b0f45217d6ce155223fede/tumblr_mq9tgleqja1qdlh1io1_400.gif
+[     Doug A.:] Carin Meier: I'm glad that kitten gif cut off before it's killed by that rocking chair
+[    Carin M.:] https://diasp.org/uploads/images/scaled_full_ca264ee3c0531b9605e6.gif
+--- 04:25 PM ---
+[Doug A. tweeted:] For when your project needs more Canada http://t.co/U0YjP2lYee -- @juliehache, http://twitter.com/juliehache/status/359405253059280896
+[     Doug A.:] Brampton down south allophone Lake Erie: maritimer Windsor hose Mr. Dressup bears; scarberia, Kentucky Fried Rabbit Hali Quebec City; pop, for sure! Gino pissed bachelor gorby; Liberal The Bay of Fundy Horny Tim's moose you know, and rye and ginger May Two-Four Lake Huron left coast Saskatoon Brampton forty pounder The 905 Nova Scotia you know, and hose! Fredericton Horny Tim's Green Party Sydney Islander eaves troughs Brandon maritimer TransCan parkade Yukon The Liberals Edmonton Rush:,;, hey?
+--- 04:30 PM ---
+[Tammy G. has entered the room]
+--- 04:50 PM ---
+[Alan A. has left the room]
+[Dewayne G. has left the room]
+[Tammy G. has left the room]
+--- 05:00 PM ---
+[Kevin R. has left the room]
+--- 05:10 PM ---
+[Carin M. has left the room]
+--- 05:20 PM ---
+[Carin M. has entered the room]
+--- 05:25 PM ---
+[     Doug A.:] https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide
+--- 05:30 PM ---
+[Paul H. has left the room]
+[Doug R. has left the room]

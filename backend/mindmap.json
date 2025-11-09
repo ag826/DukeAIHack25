@@ -1,0 +1,292 @@
+{
+  "conversation_title": "NBA and OKC Draft Picks Discussion",
+  "participants": [
+    {
+      "name": "Andre Cole"
+    },
+    {
+      "name": "Adil Gazder"
+    }
+  ],
+  "main_topics": [
+    {
+      "topic": "Favorite Sport",
+      "introduced_by": "Andre Cole",
+      "introduced_at": "00:00:01",
+      "sentiment": "neutral",
+      "subtopics": [
+        {
+          "subtopic": "Basketball as Favorite Sport",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:04",
+          "stance": "support",
+          "targeted_at": "Favorite Sport",
+          "discussed_by": [
+            "Adil Gazder"
+          ],
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "topic": "NBA Fandom",
+      "introduced_by": "Andre Cole",
+      "introduced_at": "00:00:05",
+      "sentiment": "neutral",
+      "subtopics": [
+        {
+          "subtopic": "Following NBA",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:05",
+          "stance": "question",
+          "targeted_at": "NBA Fandom",
+          "discussed_by": [
+            "Andre Cole",
+            "Adil Gazder"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "subtopic": "OKC as Favorite Team",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:08",
+          "stance": "question",
+          "targeted_at": "NBA Fandom",
+          "discussed_by": [
+            "Andre Cole",
+            "Adil Gazder"
+          ],
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "topic": "OKC Draft Picks",
+      "introduced_by": "Andre Cole",
+      "introduced_at": "00:00:10",
+      "sentiment": "neutral",
+      "subtopics": [
+        {
+          "subtopic": "Quantity of Draft Picks (25)",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:10",
+          "stance": "question",
+          "targeted_at": "OKC Draft Picks",
+          "discussed_by": [
+            "Andre Cole",
+            "Adil Gazder"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "subtopic": "Quality of Draft Picks (Second Rounders)",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:14",
+          "stance": "elaboration",
+          "targeted_at": "Quantity of Draft Picks (25)",
+          "discussed_by": [
+            "Adil Gazder"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "subtopic": "Lack of Top Talent from Good Schools",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:25",
+          "stance": "elaboration",
+          "targeted_at": "Quality of Draft Picks (Second Rounders)",
+          "discussed_by": [
+            "Adil Gazder",
+            "Andre Cole"
+          ],
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "topic": "Cooper Flag's Performance",
+      "introduced_by": "Adil Gazder",
+      "introduced_at": "00:00:25",
+      "sentiment": "negative",
+      "subtopics": [
+        {
+          "subtopic": "Cooper Flag's Poor Performance in Dallas",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:30",
+          "stance": "challenge",
+          "targeted_at": "Cooper Flag's Performance",
+          "discussed_by": [
+            "Adil Gazder"
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "subtopic": "Cooper Flag Playing Well",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:32",
+          "stance": "challenge",
+          "targeted_at": "Cooper Flag's Poor Performance in Dallas",
+          "discussed_by": [
+            "Andre Cole"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "subtopic": "Performance vs. Game Outcomes",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:35",
+          "stance": "elaboration",
+          "targeted_at": "Cooper Flag Playing Well",
+          "discussed_by": [
+            "Andre Cole"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "subtopic": "Plus/Minus Stats",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:39",
+          "stance": "challenge",
+          "targeted_at": "Performance vs. Game Outcomes",
+          "discussed_by": [
+            "Adil Gazder"
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "subtopic": "Averaging 18 Points",
+          "introduced_by": "Andre Cole",
+          "introduced_at": "00:00:45",
+          "stance": "challenge",
+          "targeted_at": "Plus/Minus Stats",
+          "discussed_by": [
+            "Andre Cole"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "subtopic": "Averaging 10 Points",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:48",
+          "stance": "challenge",
+          "targeted_at": "Averaging 18 Points",
+          "discussed_by": [
+            "Adil Gazder"
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "subtopic": "Source of Information (Propaganda/Mavs Instagram)",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:53",
+          "stance": "challenge",
+          "targeted_at": "Averaging 18 Points",
+          "discussed_by": [
+            "Adil Gazder",
+            "Andre Cole"
+          ],
+          "sentiment": "negative"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "Basketball as Favorite Sport",
+      "to": "Favorite Sport",
+      "type": "support",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:04"
+    },
+    {
+      "from": "Following NBA",
+      "to": "NBA Fandom",
+      "type": "extension",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:05"
+    },
+    {
+      "from": "OKC as Favorite Team",
+      "to": "NBA Fandom",
+      "type": "extension",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:08"
+    },
+    {
+      "from": "Quantity of Draft Picks (25)",
+      "to": "OKC Draft Picks",
+      "type": "extension",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:10"
+    },
+    {
+      "from": "Quality of Draft Picks (Second Rounders)",
+      "to": "Quantity of Draft Picks (25)",
+      "type": "elaboration",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:14"
+    },
+    {
+      "from": "Lack of Top Talent from Good Schools",
+      "to": "Quality of Draft Picks (Second Rounders)",
+      "type": "elaboration",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:25"
+    },
+    {
+      "from": "Cooper Flag's Poor Performance in Dallas",
+      "to": "Lack of Top Talent from Good Schools",
+      "type": "elaboration",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:30"
+    },
+    {
+      "from": "Cooper Flag Playing Well",
+      "to": "Cooper Flag's Poor Performance in Dallas",
+      "type": "challenge",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:32"
+    },
+    {
+      "from": "Performance vs. Game Outcomes",
+      "to": "Cooper Flag Playing Well",
+      "type": "elaboration",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:35"
+    },
+    {
+      "from": "Plus/Minus Stats",
+      "to": "Performance vs. Game Outcomes",
+      "type": "challenge",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:39"
+    },
+    {
+      "from": "Averaging 18 Points",
+      "to": "Plus/Minus Stats",
+      "type": "challenge",
+      "initiated_by": "Andre Cole",
+      "initiated_at": "00:00:45"
+    },
+    {
+      "from": "Averaging 10 Points",
+      "to": "Averaging 18 Points",
+      "type": "challenge",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:48"
+    },
+    {
+      "from": "Source of Information (Propaganda/Mavs Instagram)",
+      "to": "Averaging 18 Points",
+      "type": "challenge",
+      "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:53"
+    }
+  ],
+  "metadata": {
+    "conversation_length": "00:01:00",
+    "source_file": "namedREALTIME_transcript.txt",
+    "generated_on": "2025-11-09T02:18:35.851254",
+    "llm_model": "gemini-2.5-pro"
+  }
+}

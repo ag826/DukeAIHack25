@@ -8,3 +8,9 @@ tqdm
 numpy
 transformers
 uuid
+fastapi
+firebase_admin
+python-multipart
+torch
+uvicorn
+pydub

@@ -1,0 +1,747 @@
+GASLIGHT CAMPFIRE
+Unicorn-Office: Monday, July 22, 2013
+
+[     Adil Gazder.:] Don't know how many of you guys saw the discussion this weekend about the Cincinnati tech community. I really enjoyed following along
+[     Adil Gazder.:] I'd be veLex interested in hearing from more of our community why they participate: Joe Audette, Mobasserul Haque, Daymond John, Jim Anders, (especially) Joe Herbers
+[     Adil Gazder.:] and you too Neha Senthil
+[     Pranshul Bhatnagar.:] Neha Senthil: yeah, we love LOL
+[     Pranshul Bhatnagar.:] We signed them up to take their core classes there, this year
+[👊 Lewis Hamilton 👊.:] LOL
+[    Neha Senthil.:] I have to find a new school for our kids
+[    Neha Senthil.:] sigh
+--- 11:45 AM ---
+[    Neha Senthil.:] considering homeschooling my son and then doing Leaves of Learning
+[     Pranshul Bhatnagar.:] yeah, last year we did core stuff at home and sent thme to leaves for the stuff like art and gym
+[     Pranshul Bhatnagar.:] this year they are taking math, science, histoLex, and language arts on Tues/Thur
+[    Neha Senthil.:] If you send them for core stuff - do you still have to do all the paperwork for being home schooled?
+[     Pranshul Bhatnagar.:] yes
+[    Neha Senthil.:] ok
+[     Pranshul Bhatnagar.:] but the paperwork really isn't that hard
+[     Pranshul Bhatnagar.:] you write a letter twice a year, basically
+[    Neha Senthil.:] cool I might talk to you more about that
+[     Pranshul Bhatnagar.:] the biggest thing is either doing standardized testing at a facility or finding a teacher to do an eval
+[    Neha Senthil.:] right
+[     Pranshul Bhatnagar.:] Wendy is taking Zoe for her eval today and Brayden just did his last week
+[     Adil Gazder.:] here's a token gif from the top of /r/gifs
+[     Adil Gazder.:] http://24.media.tumblr.com/c84a312ad151c179a3f446a8a7c62167/tumblr_mmnhhdXldc1rhi0rbo1_500.gif
+[     Joe Rogan:] Adil Gazder, I missed the conversation. Was this on Twitter?
+[     Pranshul Bhatnagar.:] And blog posts
+--- 11:50 AM ---
+[     Pranshul Bhatnagar.:] I think Adil Gazder is mostly referring to this: http://words.cdmwebs.com/let-s-start-with-why
+[Adil Gazder. tweeted:] Let's Start with Why: http://t.co/nLU5KJysTw -- @cdmwebs, http://twitter.com/cdmwebs/status/359006444173000704
+[     Adil Gazder.:] For sure: ^^^^
+[     Joe Rogan:] thx, I was pretty unplugged this weekend
+[    Daymond John.:] Mark' post I thought hit it right on the head. (I was finally able to catch up last night on twitter / blog posts.) 
+[     Adil Gazder.:] It's kinda hard to have an extended conversation 140 characters at a time, but I'm really interested in what motivates you to participate
+--- 11:55 AM ---
+[👊 Lewis Hamilton 👊.:] bbq's are great places to have conversations
+[     Pranshul Bhatnagar.:] indeed, they were!
+[👊 Lewis Hamilton 👊.:] we should have more of them
+[    Neha Senthil.:] +1
+--- 12:05 PM ---
+[👊 Lewis Hamilton 👊.:] i'll do another one as long as burgers and sausages are good enough
+[     Pranshul Bhatnagar.:] +1
+[👊 Lewis Hamilton 👊.:] who knows, maybe cdmwobs and Adil Gazderalcorn will even show up
+[      Mobasserul Haque.:] Adil Gazderlcorn:  I'm still tLexing to figure out best way to express thoughts.  Was tricky to follow Twitter conversation and I'm still a bit confused as to the main goals.  Is it to build a better tech community?  Increase exposure of tech community to non-tech community?  And, at the risk of offending Miss Manners, I need to figure out how to make it on Scott's invite list. :)
+[     Pranshul Bhatnagar.:] woah
+[     Pranshul Bhatnagar.:] for shame, Lewis
+--- 12:10 PM ---
+[👊 Lewis Hamilton 👊.:] you're on it
+[👊 Lewis Hamilton 👊.:] i should set up an email list or something
+[👊 Lewis Hamilton 👊.:] what's good software for that these days?
+[👊 Lewis Hamilton 👊.:] cincytechbbq or something - i don't want to limit bbqs to being just at my house
+[      Mobasserul Haque.:] Ha, thanks!
+[     Pranshul Bhatnagar.:] an email list?  Mailchimp is my goto usually
+[👊 Lewis Hamilton 👊.:] word
+[      Mobasserul Haque.:] http://i.minus.com/ix8kSpghnwQMl.gif
+[Pranshul Bhatnagar. played a sound:] trololo
+[      Mobasserul Haque.:] My favorite troll face ->
+[      Mobasserul Haque.:] http://www.whoateallthepies.tv/wp-content/uploads/2012/09/dempsey.gif
+[Pranshul Bhatnagar. tweeted:] If Prince William and Kate Middleton have a daughter and DON'T call her Princess Leia, they're wasting eveLexbody's time. #RoyalBaby -- @DeathStarPR, http://twitter.com/DeathStarPR/status/359323118617104385
+[    Daymond John.:] So, I haven't been in Cincinnati probably as long as most of you (moved here from DC / worked a lot in SF / grew up just outside NYC). But I see the potential for a tech community that could be veLex unique from those in certain aspects, yet still maintain a lot of the core stuff Nate talked about at QC Merge. 
+--- 12:15 PM ---
+[     Joe Rogan:] I second Mobasserul on eveLexthing, especially on the BBQ! I've never actually thought about why I do it, just love doing it & being  part of something so transformative
+[      Mobasserul Haque.:] I also think it's a matter of figuring out what resonates with people regarding being active in the community.  For NYTM, it seems like their format (structured demos of working software) seems to work.  That *may* not be the thing that works here.  Obviously the social aspect seems to work here (web/tech drinkup), but demo stuff still seems to be silo-ed by specific technology.  Maybe something more community service related could be used to build community (whether it's building tech with open data, or going out to build a Habitat for Humanity home)
+[    Daymond John.:] And I completely agree, BBQs (especially with home brewed beer) are the best place for these kind of conversations! (I'm pretty sure I saw that we have that skill set in our tech community too.)
+[     Pranshul Bhatnagar.:] I think the goal was to add demos on to the Web/tech drinkup
+[    Daymond John.:] I think that would be a huge plus for the web/tech drinkup.
+[     Pranshul Bhatnagar.:] Aravind still won't give a straight answer if that is still his current thinking :)
+--- 12:20 PM ---
+[     Pranshul Bhatnagar.:] And the service related ideas are good imo too
+[     Pranshul Bhatnagar.:] Mobasserul Haque: there was some light hackathon planning around a civic hackathon for cincy, this weekend
+[Adil Gazder. has left the room]
+[     Pranshul Bhatnagar.:] https://github.com/OpenHack-Cincinnati/hackathons
+[      Mobasserul Haque.:] Pranshul: Yeah, saw that (why I mentioned it), although it got a bit lost in Twitter conversation - there were a couple kind of parallel conversations going on.
+[      Mobasserul Haque.:] I wasn't sure if points of conversation had moved away from OpenHack-Cincinnati on purpose or accidentally.
+[     Pranshul Bhatnagar.:] Well, Aravind challenged people to blog more, so I did: http://thoughts.unicoder.io/building-communities-are-hard
+--- 12:25 PM ---
+[     Pranshul Bhatnagar.:] I think his why post was a general response to that and other tweets
+[     Pranshul Bhatnagar.:] I think a demo environment could go a long way
+[      Mobasserul Haque.:] Gotcha.
+[     Pranshul Bhatnagar.:] in helping educate and unite some of the tech clusters
+[      Mobasserul Haque.:] May just need to identify the "influencers" in other tech groups to get cross-technology demos to actually happen
+[     Joe Rogan:] I think your right Pranshul. The demo environment needs to be less of "how it works" and more of "why we are doing it", to an extent
+[     Joe Rogan:] easy to get lost in details of frameworks your not familiar with
+[     Pranshul Bhatnagar.:] yeah, showing a how takes more than 5-10 minutes :)
+[     Joe Rogan:] What are the other big tech communities around here? .Net & java obviously because of the mega-corps...
+--- 12:30 PM ---
+[     Pranshul Bhatnagar.:] .net, java, js, ruby, cocoa are the ones I know of
+[     Pranshul Bhatnagar.:] that are around frameworks
+[      Mobasserul Haque.:] I *think* the PHP UG is pretty healthy, but not positive
+[     Pranshul Bhatnagar.:] oh yeah, and php
+[      Mobasserul Haque.:] Gerard is a good connector with PHP
+[     Pranshul Bhatnagar.:] We have stolen him into Meteor.js land now :)
+[      Mobasserul Haque.:] Meteornapped
+[      Mobasserul Haque.:] Luckily, I don't think PHPUG made him turn in his badge.
+[     Joe Rogan:] meteroid
+--- 12:50 PM ---
+[Andrew Garfield. has left the room]
+[Neha Senthil. has left the room]
+--- 01:00 PM ---
+[Neha Senthil. has entered the room]
+--- 01:05 PM ---
+[    Aravind Srinivas.:] It's not about the events, that's my point.
+[    Aravind Srinivas.:] We have those. I'm reluctant to start more until we talk about the why.
+[    Aravind Srinivas.:] That's what will bring it all together
+[    Aravind Srinivas.:] Events are just a part of it.
+[Adil Gazder. has entered the room]
+[    Aravind Srinivas.:] Demos, hackathons, etc are reasons to get together and do things that work toward our shared vision
+[    Aravind Srinivas.:] Does that make sense?
+[     Joe Rogan:] communication problem, what if we start with a hashtag? Might be the easiest way to get things rolling...
+[    Aravind Srinivas.:] I have no preference for the tool.
+[    Aravind Srinivas.:] Whatever allows us to have open dialogue is the most important thing.
+[      Mobasserul Haque.:] I like the idea of not diluting/fragmenting with more events, but how do we grow community without events?  Or are you thinking that we use existing ones to unify?
+[    Aravind Srinivas.:] Also, why is the Cincy maker group private?
+--- 01:10 PM ---
+[     Joe Rogan:] just thinking about simplicity for now.. mvp
+--- 01:10 PM ---
+[    Aravind Srinivas.:] @Mobasserul Haque: YES!
+[    Aravind Srinivas.:] bring them together. one REALLY BIG, REALLY loud voice
+[    Aravind Srinivas.:] instead of 100 smaller, quieter ones
+[    Aravind Srinivas.:] point the Enquirer at the firehose of amazing innovation activity
+[     Joe Rogan:] we need a unified communication channel. Segmented events are good (ruby, php, etc.) as are meta-web (drink up). Biggest issue is the channel I htink
+[      Mobasserul Haque.:] Right, it does seem like the obvious place that has momentum (at least in our fragment) is the drinkup.
+[      Mobasserul Haque.:] But how do we get drinkup momentum to translate into growing and giving back to Cincinnati...
+[Mark Cuban. has entered the room]
+[    Aravind Srinivas.:] By defining a purpose we all understand and can get behind
+--- 01:15 PM ---
+[    Aravind Srinivas.:] When we all have the same goal, it's easy to convince others to join us
+[    Aravind Srinivas.:] What is YOUR reason for joining user groups, teaching, training, volunteering?
+[    Aravind Srinivas.:] Are we all on the same page? Then let's say that and get started.
+[    Aravind Srinivas.:] The things we do should move all of us toward that goal eveLex day.
+[James Sinegal. has entered the room]
+[    Aravind Srinivas.:] Make sense?
+[     Pranshul Bhatnagar.:] Aravind: the group was private when Mark Cuban made it
+[     Pranshul Bhatnagar.:] maybe he can change it?
+[     Pranshul Bhatnagar.:] I think most of us have at least one reason similar to your list
+[     Pranshul Bhatnagar.:] for why we do it
+[    Mark Cuban.:] It was originally the Maker Organizer group
+--- 01:20 PM ---
+[    Mark Cuban.:] I'll change it
+[Adil Gazder. has left the room]
+[    Aravind Srinivas.:] That's not good enough, Pranshul. If it were, we wouldn't being frustrated about demos right now.
+[    Mark Cuban.:] Dammit. Privacy cannot be changed
+[    Aravind Srinivas.:] you guys:
+[    Aravind Srinivas.:] http://cdmwebs.com/s/Why_We_Wrote_a_Blog-20130722-132256.png
+[Paul Hudson. uploaded: 7090567351_b001737434.jpeg]
+[    Aravind Srinivas.:] We suck at part 2.
+[Adil Gazder. has entered the room]
+[    Aravind Srinivas.:] Did you watch Nate's video?
+[    Aravind Srinivas.:] We have makers. Lots of great, creative ones.
+[     Paul Hudson.:] In real life.
+[    Aravind Srinivas.:] We suck at telling people.
+[     Paul Hudson.:] It was like 3d
+[    Aravind Srinivas.:] Let's get better!
+[      Mobasserul Haque.:] Aravind: Makes sense to me, although it does seem like there still needs to be discussion about the goal.  From the twitter conversation, it seems like there are lots of goals (better startup environment, better funding environment) that people may have.  IMO, (and take it for what it's worth), the primaLex goal should be more altruistic - using our talents to make our larger community (Cincy) better  - whether that's improving STEM education, community service work, building open data APIs...  It's fine that those other goals exist, but I don't think they unify a tech community into growing.
+[     Adil Gazder.:] Lewis Hamilton: I'm so bummed I missed Lewis Hamiltonbbq
+[    Aravind Srinivas.:] YES!
+[    Aravind Srinivas.:] Mobasserul is on it.
+[    Aravind Srinivas.:] If you could write that in one sentence, what would it be?
+[    Aravind Srinivas.:] It's more than "funding" and "startups" and "VC"
+[      Mobasserul Haque.:] Hmm, let me tLex taking out eveLex third word :)
+[    Aravind Srinivas.:] we have the talent and tools to *really* make a difference
+--- 01:25 PM ---
+[    Aravind Srinivas.:] that's what I want to do
+[      Mobasserul Haque.:] I think the less altruistic goals should NEVER be obvious - should only be a happy side effect.
+[    Aravind Srinivas.:] the brandeLex and the startup community is welcome to come along
+[Andrew Garfield. has entered the room]
+[Bill Gates. has entered the room]
+[👊 Lewis Hamilton 👊.:] i don't care at all about funding or VC
+[     Pranshul Bhatnagar.:] neither do I
+[     Pranshul Bhatnagar.:] I spend my nights working on shit that won't ever earn me direct dollars
+[👊 Lewis Hamilton 👊.:] and for me startups are just a byproduct of people doing cool shit, i don't care much about them either
+[      Mobasserul Haque.:] Exactly, it fragments the potential audience
+[      Mobasserul Haque.:] I love the enthusiam and energy of founders and people in that scene, but that scene is not for eveLexone.
+[      Mobasserul Haque.:] Aravind:  Hard to to one sentence because I feel that it oversimplifies so many aspects.  If you just said "make Cincinnati a place we all want to live" leaves out way too much of the stoLex.
+[     Pranshul Bhatnagar.:] No, I was veLex put off by my brush with BrandeLex
+[     Pranshul Bhatnagar.:] Mobasserul Haque: that is close to what I said on Sunday in here
+[     Joe Rogan:] "It's more than funding, startups and VC, it's us"
+[     Joe Rogan:] something like that?
+[     Joe Rogan:] it's Cincinnati
+[     Pranshul Bhatnagar.:] Make Cincinnati a more vibrant place for technology and people who love it, to thrive
+--- 01:30 PM ---
+[Alex H. has left the room]
+[     Joe Rogan:] Play on QCMerge... It's moving Cincinnati forward
+[    Aravind Srinivas.:] Keep going
+[    Aravind Srinivas.:] It's been suggested that QCMerge is it. Queen City Merge.
+[    Aravind Srinivas.:] I didn't like it at first.
+[    Aravind Srinivas.:] The conference could just be a part of it
+[     Joe Rogan:] Technology. Design. Innovation. Moving Cincinnati Forward.
+[     Pranshul Bhatnagar.:] Making Cincinnati Flourish
+[Peter Thiel. has entered the room]
+[    Aravind Srinivas.:] Keep going!
+[Aravind Srinivas. played a sound:] yeah
+[    Daymond John.:] Who's your primaLex audience for 'telling'? 
+[    Aravind Srinivas.:] eveLexone else
+[    Aravind Srinivas.:] eveLexone who isn't at user groups
+[    Aravind Srinivas.:] at conferences
+[    Aravind Srinivas.:] let's show them what we can do
+[    Daymond John.:] Here in Cincy, or outside?
+[    Aravind Srinivas.:] tell them about flying drones with computers
+[    Aravind Srinivas.:] not about the code, not right away
+[     Adil Gazder.:] I'm personally really interested in getting people (in Cinci) who aren't currently engaged with tech to become so
+[    Aravind Srinivas.:] Start with Cincy
+[     Joe Rogan:] To those in Cinci, "Come join us". To those outside: "Look what we have going on"
+--- 01:35 PM ---
+[    Aravind Srinivas.:] build a fanbase
+--- 01:35 PM ---
+[      Mobasserul Haque.:] I think we have to be careful about making it sound "declarative" and like we're the only ones doing good things.  Something along lines of: Using our "tech" talents to Mobasserulefit our community.
+[    Aravind Srinivas.:] let them help us tell the stoLex
+[    Mark Cuban.:] Adil Gazder: yes, me too
+[     Joe Rogan:] I think its ok to be declarative, as long as its not exclusionaLex
+[     Joe Rogan:] we're saying what we stand for, and why we exist
+[     Adil Gazder.:] yes, Joe Audette
+[Michelle Tandler. has entered the room]
+[      Mobasserul Haque.:] It is a veLex fine line
+[     Pranshul Bhatnagar.:] Joe Audette: I agree with you
+[     Joe Rogan:] most good things in life are
+[    Aravind Srinivas.:] People don't buy what you do, they buy why you do it.
+[    Aravind Srinivas.:] Why do we do what we do?
+[    Aravind Srinivas.:] Why do we take personal time to run user groups? 
+[     Pranshul Bhatnagar.:] Making Cincinnati flourish through innovation because we love our city
+[    Mark Cuban.:] I (we) believe that the best way for Cincinnati to continue to become a vital, thriving community is by building a community of makers and creators
+[    Aravind Srinivas.:] This is where @Michelle Tandlerandler might be able to really help
+[    Aravind Srinivas.:] She's good at hearing what we're saying and making it powerful.
+[    Mark Cuban.:] maybe, she's good at words
+[Lex Fridman has entered the room]
+[    Aravind Srinivas.:] Lex Walker: read the transcript
+[     Pranshul Bhatnagar.:] yeah, this is a dangerous trap, crafting words
+[     Pranshul Bhatnagar.:] He can't can he?
+[Kenny G. has entered the room]
+[     Pranshul Bhatnagar.:] visitors don't get to see the logs
+[    Daymond John.:] But it's not just b/c we love a city. You build community b/c it makes people flourish. 
+[       Lex Fridman:] yeah no transcript link :(
+[    Aravind Srinivas.:] not at all, it's probably the most powerful thing we can do.
+--- 01:40 PM ---
+[    Aravind Srinivas.:] crap, sorLex
+[    Aravind Srinivas.:] I'll gist it maybe?
+[     Pranshul Bhatnagar.:] Aravind: just add him to the room
+[Neha Senthil. has left the room]
+[     Pranshul Bhatnagar.:] Aravind: we did this same exercise at Gaslight a long time ago, it was hard and frustrating, at least for me
+[    Aravind Srinivas.:] we made it: https://github.com/gaslight/handbook/blob/master/about-gaslight.md
+[    Aravind Srinivas.:] it IS hard and frustrating, but it has to happen
+[Kevin O’Leary. has entered the room]
+[     Joe Rogan:] "We're driving innovation through an amazingly talented community. We're moving Cincinnati Forward."
+[    Aravind Srinivas.:] I like it!
+[     Joe Rogan:] Possibly make the first part more specific, maybe not
+[ Michelle Tandler.:] I think before you talk to people you have to know:
+[    Mark Cuban.:] Dig it
+[    James Sinegal.:] ship it
+[    Aravind Srinivas.:] Let's wait for Michelle
+[    Peter Thiel.:] "amazingly talented"
+[    Mark Cuban.:] ridonkulously talented?
+--- 01:45 PM ---
+[      Mobasserul Haque.:] I'm not 100% happy with the word "innovation" as it often gets aligned with startups, but I don't have an alternative.  Could get to like it.
+[    Aravind Srinivas.:] let's take it back
+[      Mobasserul Haque.:] Innovation still works for open govt data, etc.
+[     Joe Rogan:] maybe replace "through" from "from"
+[    Aravind Srinivas.:] If I learned anything from Mad Men: "If you don't like what's being said, change the conversation."
+[Mark H. has entered the room]
+[     Pranshul Bhatnagar.:] I like "through"
+[     Joe Rogan:] agreed Mark
+[     Pranshul Bhatnagar.:] some people call that :trollface:
+[      Mobasserul Haque.:] Aravind: Agree, point taken
+[     Pranshul Bhatnagar.:] haha
+[👊 Lewis Hamilton 👊.:] If I learned anything form Mad Men it's how to drink a lot at work
+[👊 Lewis Hamilton 👊.:] oh wait, i learned that while sharing an office with gaslight
+[      Mobasserul Haque.:] I need to figure out how to work at work after today's conversation :)
+[     Pranshul Bhatnagar.:] Mobasserul Haque: lost cause, just drink and speak platitudes
+[👊 Lewis Hamilton 👊.:] *pours some brown liquor*
+[       Lex Fridman:] someone post a link to a transcript
+[     Pranshul Bhatnagar.:] one sec, working on it
+[       Lex Fridman:] gotta know what will prevent Mobasserul from working :)
+[    Aravind Srinivas.:] stupid campfire
+[     Pranshul Bhatnagar.:] https://gist.github.com/queso/6055966
+[     Pranshul Bhatnagar.:] not the easiest way to read
+[     Pranshul Bhatnagar.:] Kevin O’Leary, Lex Walker, Jim Anders, Joe Herbers ^^
+[    Aravind Srinivas.:] working on it
+--- 01:50 PM ---
+[     Pranshul Bhatnagar.:] Well, it's been real peeps, I have to go adopt my step-daughter!  See you later.
+[     Adil Gazder.:] congrats/good luck Pranshul Bhatnagarwens
+[      Mobasserul Haque.:] Awesome!
+[     Pranshul Bhatnagar.:] thx
+[    Aravind Srinivas.:] nice!
+[    Aravind Srinivas.:] https://gist.github.com/cdmwebs/6055994
+[    Aravind Srinivas.:] how about that?
+[👊 Lewis Hamilton 👊.:] no good, my punches don't come through
+[    Aravind Srinivas.:] shut it
+[    Aravind Srinivas.:] https://github.com/precipice/campfire_export FTW!
+[     Andrew Garfield.:] conagrat Pranshul :)
+[     Andrew Garfield.:] u know hat I mean
+[    Aravind Srinivas.:] What happened to Michelle?
+--- 01:55 PM ---
+[Aravind Srinivas. tweeted:] Don't eat a carrot you see on the street even if it smells  okay trust me -- @RealCarrotFacts, http://twitter.com/RealCarrotFacts/status/357553471295193088
+[Alex H. has entered the room]
+[     Adil Gazder.:] To get this back on previous subject, I'd like to link to Indy Hall's "Community with a Purpose" page:
+[     Adil Gazder.:] http://www.indyhall.org/purpose
+[     Adil Gazder.:] I agree with Joe Audette, we need some common channel to highlight the various things that are going on
+[    Aravind Srinivas.:] And my point was that there are existing channels
+--- 02:00 PM ---
+[    Aravind Srinivas.:] Does it make sense to see if we can align and do something instead of starting yet another one?
+[     Adil Gazder.:] yea, I'm on board with that too
+[Michelle Tandler. has left the room]
+[     Adil Gazder.:] does it matter which one we pick?
+[Michelle Tandler. has entered the room]
+[    Aravind Srinivas.:] Michelle's back!
+[     Adil Gazder.:] There's Michelle Tandlerandler
+[     Joe Rogan:] We can, we just need to align on one that is reliable and accessible
+[     Joe Rogan:] I mentioned twitter because it is easy and eveLexone already has it
+[ Michelle Tandler.:] I'm back. Had to do some real work.
+[    Aravind Srinivas.:] eveLexone in our circles, Joe Audette
+[ Michelle Tandler.:] I think a good exercise it called "thinking backward." if all this stuff you dreamed about happened, what would be different?
+[     Adil Gazder.:] Joe Audette, I'm confused now. Are we going to get Twitter to rally behind our common purpose?
+[ Michelle Tandler.:] Then you work backward to figure out how to make those things happen.
+[      Mobasserul Haque.:] That IndyHall page is pretty good (remember seeing Mark tweet it out previously) - focus on the community building rhetoric and it seems to be exactly what we're talking about.
+[     Joe Rogan:] no, just proposing a hashtag as the primaLex communication channel
+[     Adil Gazder.:] ah, ok. I remember you saying that now
+[ Michelle Tandler.:] That IndyHall page is nice, but it applies to one thing (IndyHall). Not eveLexthing tech in Philly, right?
+[    Daymond John.:] Building community while being centrally located is a lot different than what we're tLexing to do. 
+--- 02:05 PM ---
+[     Joe Rogan:] I think its an example of what we are talking about... building community
+[     Joe Rogan:] just one example of how it can be done
+[       Lex Fridman:] I'd love to continue discussion that came out of my post http://Lexwalker.com/what-the-cincinnati-tech-scene-needs — if "innovation" is the word, I see Cintrifuse as a good shell to do great things through, and get some built in support along the way (vs. starting from scratch)
+[     Adil Gazder.:] What I like about that purpose page is it clearly identifies the motivation behind what they are doing. It doesn't say anything really about how they do it
+[      Mobasserul Haque.:] Personally, not a big fan of Twitter as threads of conversation get mashed together, but can deal.  Also, it sounds like we're not on same page about "channels".  When Aravind Srinivasentions channels, it seems like he's talking about a thing that's already going, like the Drinkup, but Joe is talking about communication channels.
+[    Aravind Srinivas.:] we still need that central hub: Daymond John
+[    Aravind Srinivas.:] Maybe Cintrifuse *could* be it.
+[    Aravind Srinivas.:] I'm not quite as convinced as Lex, but let's see if they're amicable
+[    Daymond John.:] Totally agree. Is it a physical location though? 
+[    Aravind Srinivas.:] I won't immediately stirke it
+[    Aravind Srinivas.:] yes
+[       Lex Fridman:] It's also a pot of money
+[    Aravind Srinivas.:] Lex: got any pictures?
+[       Lex Fridman:] For projects...
+[    Aravind Srinivas.:] welllllllllll
+[ Michelle Tandler.:] But what exactly *is* the common purpose? Specifically? It doesn't seem like eveLexone agrees on that.
+[     Joe Rogan:] *if you are into that sort of thing, Lex :P
+[     Adil Gazder.:] Michelle Tandlerandler: I think that's the biggest thing
+[    Aravind Srinivas.:] I liked what Joe wrote, Michelle
+[    Aravind Srinivas.:] "We're driving innovation through an amazingly talented community. We're moving Cincinnati Forward."
+[    Aravind Srinivas.:] It's a good start
+[       Lex Fridman:] I think common purpose == driving innovation (that's the most broad way to define it, to be as inclusive as possible)
+[      Mobasserul Haque.:] IMO, it's not about money - it's about us, with tech talents, doing things regardless of reward.
+[    Aravind Srinivas.:] It needs something, but I like the "tone"
+[    Aravind Srinivas.:] money is a side effect
+[    Aravind Srinivas.:] completely agree
+[    Aravind Srinivas.:] when the money comes together with talent and creativity, that's when magic happens
+[       Lex Fridman:] I agree with @innonate that makers have to be at the core
+[    Aravind Srinivas.:] we need to get better at funding unfundable ideas, too
+[     Adil Gazder.:] how does somthing like GDI fit in with "driving innovation"?
+[ Michelle Tandler.:] I think making a bit more specific makes it more powerful. Check out the messaging for the 99% conference:
+[ Michelle Tandler.:] http://99u.com/conference
+[    Aravind Srinivas.:] not eveLexthing needs to have an immediate ROI
+[    Aravind Srinivas.:] like Haile
+[    Aravind Srinivas.:] something between the two could be huge
+[      Mobasserul Haque.:] But where the money is shouldn't guide how community works since it then becomes a sponsorship/marketing play.
+[       Lex Fridman:] Haile could be a good home too
+[    Aravind Srinivas.:] +1
+[    Aravind Srinivas.:] Eric is really smart
+--- 02:10 PM ---
+[       Lex Fridman:] They have $200M fund that generates $1M+ to spend each year on cool shit Eric likes :)
+[    Aravind Srinivas.:] he has a good vision. in fact, I'd jump in with him before Cinrtifuse at the moment.
+[    Aravind Srinivas.:] Only because I know more about him and Haile, though
+[    Aravind Srinivas.:] Nothing Cintrifuse has broadcast gets me excited
+[    Aravind Srinivas.:] And it could just be messaging, but that's a big piece
+[    Aravind Srinivas.:] maybe the most important one
+[      Mobasserul Haque.:] Adil Gazderlcorn: Good point.  Maybe they're creating makers to drive innovation.
+[     Adil Gazder.:] "We are concentrating our efforts and resources in areas about which Carol and Ralph were most passionate: Arts and Culture, Community Development, Education, and Human Services."
+[     Adil Gazder.:] http://www.haileusb.org/About_Us/
+[    Aravind Srinivas.:] I would share a space with Haile in a skinny minute
+[Neha Senthil. has entered the room]
+[    Aravind Srinivas.:] I want to be in a building with a bunch of other smart, passionate people with a shared goal
+[    Aravind Srinivas.:] like Gaslight x 100
+[       Lex Fridman:] Definitely a more altruistic mission
+[     Adil Gazder.:] +1
+[    Aravind Srinivas.:] I want that space
+[    Aravind Srinivas.:] But what we're talking about fits in with those, too
+[     Adil Gazder.:] I'd settle for just x10, Aravind
+[Dewayne G. has entered the room]
+[       Lex Fridman:] I'd say reach out to Eric. Erin seems a bit protective of that relationship, so maybe through her.
+[    Aravind Srinivas.:] Will do
+[       Lex Fridman:] No matter what the "centralized" resource - I know Cintrifuse will participate one way or another.
+[    Kevin O’Leary.:] +1000 "I want to be in a building with a bunch of other smart, passionate people with a shared goal"
+--- 02:15 PM ---
+[👊 Lewis Hamilton 👊.:] what is this shared goal?
+[    Aravind Srinivas.:] You tell us
+[     Joe Rogan:] drinking good beer
+[    Aravind Srinivas.:] We're still working on it
+[👊 Lewis Hamilton 👊.:] i don't know, that's why i asked you
+[    Aravind Srinivas.:] I like Joe's:
+[    Aravind Srinivas.:] "We're driving innovation through an amazingly talented community. We're moving Cincinnati Forward."
+[👊 Lewis Hamilton 👊.:] is that a goal?
+[👊 Lewis Hamilton 👊.:] or just something we do
+[    Aravind Srinivas.:] you want a BHAG?
+[     Joe Rogan:] I think that sums up a veLex broad goal nicely. We'll need to be a little more specific on the first part, not necessarily with the words, but definitely with the actions
+[    Aravind Srinivas.:] I don't have an immediate goal that I can put in to words, Lewis Hamilton
+[     Bill Gates.:] I like Joe's but would whack the overt shout out to QCM and replace it with some words about being open or sharing. Something like "We're driving innovation by sharing the work of an amazingly talented community."
+[    Aravind Srinivas.:] nothing tangible, but I'll keep thinking
+[👊 Lewis Hamilton 👊.:] i'm thinking more along the lines of not using the phrase "shared goal", rather than defining a "BHAG" - because i can't imagine what that shared goal would be
+[    Aravind Srinivas.:] like Michelle said:
+[    Aravind Srinivas.:] I think a good exercise it called "thinking backward." if all this stuff you dreamed about happened, what would be different?
+--- 02:20 PM ---
+[Peter Thiel. has left the room]
+[Mark H. has left the room]
+[Alex H. has left the room]
+[     Joe Rogan:] Bill, we were talking about it tying into QCMerge somehow. I don't think we have any specifics on it yet though
+[    Aravind Srinivas.:] free and open access to technology
+[     Adil Gazder.:] increased regional revenue from technology? lower unemployment in the region? higher per capita income? 
+[    Aravind Srinivas.:] training and mentoring
+[    Aravind Srinivas.:] a larger middle class
+[       Lex Fridman:] Thinking about all this... I think the problem we all have with status quo is the lack of a NYTM-like monthly meeting that is drawing in all sorts of new people into it, and gives us a venue to see cool shit
+[     Bill Gates.:] Joe: I'm totally down with that happening. I think in the long term though it will sound repetitive once people have heard that tag line enough or seen it often enough on t-shirts. :)
+[    Aravind Srinivas.:] more options outside traditional higher ed
+[👊 Lewis Hamilton 👊.:] none of those are things i set out to do on a daily basis
+[    Aravind Srinivas.:] but are they things the things you do on a daily basis work toward?
+[    Aravind Srinivas.:] why did you help with the training discussion?
+[    Mark Cuban.:] Creating with technology would be a basic literacy skill
+[Peter Thiel. has entered the room]
+[👊 Lewis Hamilton 👊.:] because training people and helping people interests me
+[     Joe Rogan:] Aravind Srinivas, those are definitely ambitious goals
+[👊 Lewis Hamilton 👊.:] those things are byproducts
+[    Aravind Srinivas.:] why? what is interesting about it?
+[    Aravind Srinivas.:] does it make you feel good?
+[👊 Lewis Hamilton 👊.:] indeed
+--- 02:25 PM ---
+[Nick T. has entered the room]
+[Public c. has entered the room]
+[    Aravind Srinivas.:] dang it
+[    Aravind Srinivas.:] this lack of transcript sucks
+[👊 Lewis Hamilton 👊.:] yeah
+[    Aravind Srinivas.:] Nick just popped in
+[Paul Varga. has entered the room]
+[       Lex Fridman:] how bout we put up a discourse server
+[👊 Lewis Hamilton 👊.:] i like using this way better than twitter, but the guest access is not good
+[    Aravind Srinivas.:] updating the gist
+[    Aravind Srinivas.:] Adil Gazder has experience with that
+[    Aravind Srinivas.:] lol
+[     Adil Gazder.:] I've been working with discourse for the last couple weeks
+[     Adil Gazder.:] and also xmpp
+[     Adil Gazder.:] for multi-user chat rooms
+[     Adil Gazder.:] what domain would we put up discourse for? 
+[    Aravind Srinivas.:] transcript
+[    Aravind Srinivas.:] https://gist.github.com/cdmwebs/6055994
+[    Aravind Srinivas.:] for those who just joined
+[       Lex Fridman:] i deployed this when discourse came out: http://hubcincy.herokuapp.com/
+[       Lex Fridman:] never shared
+[       Lex Fridman:] :)
+[    Aravind Srinivas.:] orly?
+[       Lex Fridman:] probably crappy buggy early version *shrug*
+[    Aravind Srinivas.:] can you get it up to date?
+--- 02:30 PM ---
+[    Aravind Srinivas.:] we can move there
+[     Adil Gazder.:] it's kinda hard to host discourse on heroku
+[       Lex Fridman:] yeah this is on heroku
+[       Lex Fridman:] maybe i ran into problem = why i quit
+[    Aravind Srinivas.:] digital ocean
+[    Aravind Srinivas.:] STOP
+[       Lex Fridman:] yeah it's not loading - screw my deployment
+[       Lex Fridman:] can't login w/ twitter
+[     Adil Gazder.:] digital ocean is what i use
+[    Aravind Srinivas.:] hub.qcmerge.com?
+[    Aravind Srinivas.:] idk where it lives
+[       Lex Fridman:] works for me
+[     Joe Rogan:] I like that
+[     Adil Gazder.:] how would that be different than the other google groups we already have?
+[    Aravind Srinivas.:] as long as it's accessible
+[       Lex Fridman:] more accessible
+[    Aravind Srinivas.:] I like the multiple service login
+[     Joe Rogan:] for one, it gives the group cred from QCMerge, vs. a seemingly random group thats been around for a day
+[     Adil Gazder.:] ok, i can set it up on the qcmerge domaon
+[       Lex Fridman:] rock on
+[    Aravind Srinivas.:] anyway, Lewis Hamilton, and others
+[       Lex Fridman:] How about, lean startup style, you/we plan a QCMerge "Event" - I'll tLex to get Cintrifuse + others from startup community involved...
+[    Aravind Srinivas.:] what can we say is a shared goal?
+[    Aravind Srinivas.:] the event is the how, though
+--- 02:35 PM ---
+[👊 Lewis Hamilton 👊.:] i don't know that i have a goal
+[    Aravind Srinivas.:] if we can't all agree on the why, it will disappoint
+[👊 Lewis Hamilton 👊.:] so i probably can't help with that
+[       Lex Fridman:] my goal = monthly event where i can see awesome demos. with 800 people attending
+[    Aravind Srinivas.:] but why?
+[    Aravind Srinivas.:] what does the event do for us?
+[    Aravind Srinivas.:] for you?
+[       Lex Fridman:] because it'll help drive innovation for whole community
+[    Aravind Srinivas.:] that
+[    Aravind Srinivas.:] let's agree on that, then getting people excited about events that work toward it
+[    Aravind Srinivas.:] let's get something bold and powerful. the first thing they see.
+[    Aravind Srinivas.:] something we can tell our families about
+[       Lex Fridman:] hell i want my family to want to come to the event
+[    Aravind Srinivas.:] "We're creating a new future by ...."
+[       Lex Fridman:] :)
+[       Lex Fridman:] but I have a weird family
+[    Aravind Srinivas.:] "We're driving innovation through an amazingly talented community. We're moving Cincinnati Forward."
+[    Aravind Srinivas.:] We're moving Cincinnati Forward
+[    Aravind Srinivas.:] We're moving Cincinnati Forward
+[    Aravind Srinivas.:] We're moving Cincinnati Forward
+[       Lex Fridman:] cincinnatiforward.com ?
+[       Lex Fridman:] damn squatters
+--- 02:40 PM ---
+[    Aravind Srinivas.:] and how is this different from cincinnati innovates?
+[    Aravind Srinivas.:] http://blog.cincinnatiinnovates.com/
+[    Aravind Srinivas.:] See what I mean?
+[Michelle Tandler. has left the room]
+[Nick T. has left the room]
+[Public c. has left the room]
+[    Aravind Srinivas.:] How many of these have similar goals?
+[    Aravind Srinivas.:] Lots of little voices
+[       Lex Fridman:] We can all have same goal
+[       Lex Fridman:] Our difference should be in how we execute
+[       Lex Fridman:] Cincinnati Innovates does nothing for me
+[    Aravind Srinivas.:] The competition could certainly be a part of it
+[       Lex Fridman:] Later...
+[       Lex Fridman:] Let's start with what's most obvious?
+[       Lex Fridman:] Agile.
+[     Adil Gazder.:] agile innovations ideating forward
+[    Aravind Srinivas.:] I keep thinking about open source
+[    Aravind Srinivas.:] and how things happen there
+[       Lex Fridman:] Nice Adil Gazder :)
+[    Aravind Srinivas.:] decentralized, but unified
+[     Adil Gazder.:] i'm afraid of words that don't mean anything, 'cause then they can mean anything
+[       Lex Fridman:] You talking about "agile" as not meaning anything? — I was saying "let's do the first card on the kanban" build a kick ass, recurring event - then pull another card later...
+[    Aravind Srinivas.:] but the events already happen, Lex
+[       Lex Fridman:] Not kick ass ones
+[       Lex Fridman:] I run 3 non-kick ass ones
+[    Aravind Srinivas.:] but why?
+[       Lex Fridman:] Web tech drinkup is the best... but is mostly networking
+[      Mobasserul Haque.:] Kick ass ones don't tend to be "lean".
+[    Aravind Srinivas.:] because theres no vision
+[    Aravind Srinivas.:] come hack on something
+[    Aravind Srinivas.:] come hack on something that will help provide food to inner city children
+--- 02:45 PM ---
+[    Aravind Srinivas.:] come hack on something that improves people's lives. here. in your city.
+[    Aravind Srinivas.:] build something amazing that can help people here, then show that off
+[       Lex Fridman:] that might get me a few more attendees
+[       Lex Fridman:] but not 800
+[    Aravind Srinivas.:] it'll get the core group
+[    Aravind Srinivas.:] the excited ones
+[    Aravind Srinivas.:] the noisemakers
+[     Joe Rogan:] I think the audience needs to be local, but not the theme. You'r from Cinci, come show the rest of us how you are changing the world
+[    Aravind Srinivas.:] the ones who will tell eveLexone they know about the amazing work that's happening
+[    Aravind Srinivas.:] that'll get 8,000
+[Mobasserul Haque. has left the room]
+[       Lex Fridman:] @Paul Vargaarga what do you think about all this? :)
+--- 02:50 PM ---
+[     Paul Varga.:] I like the "improves people's lives" thing
+[     Paul Varga.:] I think I like focusing on the building rather than where the building is happening.
+[       Lex Fridman:] that's a lot different from "driving innovation"...
+[       Lex Fridman:] do you want to go to an event where we're hearing people talk about all the cool ways people in Cincy are improving the lives of other Cincinnatians?
+[       Lex Fridman:] Sounds sorta interesting to me, but not too much like NYTM
+[     Paul Varga.:] that's true. so I guess my question is: are you tLexing to drive innovation or make a community where innovation happens? I think they are two different things.
+[     Joe Rogan:] I want to hear about the cool things that people are building in cincinnati, but not necessarily limited to things that happen only within cincinnati
+[       Lex Fridman:] If innovation is core, tech is the core of innovation = we get to see cool tech demos
+[     Paul Varga.:] building community means you can sustain innovation
+[       Lex Fridman:] If it can be cool tech demos about helping people — that's even better. but all innovation is ultimately about helping people
+[    Aravind Srinivas.:] don't focus 100% on NYTM
+[    Aravind Srinivas.:] it's just a part
+[     Paul Varga.:] what is NYTM?
+[    Aravind Srinivas.:] a piece of the whole
+--- 02:55 PM ---
+[    Aravind Srinivas.:] http://nytm.org
+[    Aravind Srinivas.:] the demo is just a piece, Lex
+[    Aravind Srinivas.:] join their mailing list
+[    Aravind Srinivas.:] all day long there's interesting conversations
+[    Aravind Srinivas.:] people connecting with the right people at the right time
+[    Aravind Srinivas.:] demos are just once a month events
+[    Aravind Srinivas.:] they work with the mayor's office
+[    Aravind Srinivas.:] they work with developers for good
+[    Aravind Srinivas.:] http://nytm.org/programs/policy
+[Aravind Srinivas. pasted:]
+                Make New York City the most wired city on earth by providing eveLex New Yorker and eveLex New York business regardless of location access to the fastest broadband networks at the lowest cost.
+                Reinvent the education system to allow eveLex child, young adult, and all New Yorkers to develop the skills necessaLex to thrive in a 21st centuLex economy.
+                Make New York City the clear choice for entrepreneurs, software engineers, and other technically skilled professionals to start a business and build a career by making it easy to find partners, financing, office space and housing, employees, and access to markets.
+                Support the appointment of a Deputy Mayor for Technology Innovation with an appropriate budget charged with the responsibility of reinventing New York City government with a 21st centuLex framework.
+                Make New York City’s system for civic participation the most open, transparent, accountable, participatoLex, and innovative in the world.
+                Make New York City the most citizen-connected community on earth, where its people connect with each other to unleash a powerful 21st centuLex economy: selling to each other, renting to each other, funding each other, sharing with each other, coworking with each other, meeting up with each other, and hiring each other.
+                Support public policies that would ensure that technology and the opportunities available to the tech community can reach all New York’s citizens, and help solve issues related to healthcare, human rights and justice, gender equality, transportation, the environment, and other issues of fundamental importance to all New Yorkers.
+[    Aravind Srinivas.:] that's the core of NYTM
+[       Lex Fridman:] Now it is
+[       Lex Fridman:] but it started smaller
+[       Lex Fridman:] we have to start a journey
+--- 03:00 PM ---
+[    Aravind Srinivas.:] If it's a demo event you want, then start it.
+[    Aravind Srinivas.:] I do not own it.
+[    Aravind Srinivas.:] I never have.
+[       Lex Fridman:] yes you do
+[       Lex Fridman:] :)
+[       Lex Fridman:] kidding
+[       Lex Fridman:] i want to collaborate on it
+[       Lex Fridman:] only way it gets awesome
+[    Aravind Srinivas.:] it's a part of this. we can tie it in to the Drinkup. I don't care *how* it happens.
+[    Aravind Srinivas.:] I care *why* it happens. I want the first tiny batch to leave feeling energized and motivated.
+[    Aravind Srinivas.:] I want them to leave and start working on something for the next month.
+[       Lex Fridman:] each person will bring their own why + maybe leave with another (if done right) --- maybe that's a better why --- "Inspiration"
+[    Aravind Srinivas.:] we've been doing that.
+[    Aravind Srinivas.:] you think putting a tweet wall up on the wall changes anything?
+[    Aravind Srinivas.:] I don't.
+[    Aravind Srinivas.:] we can do better. we will.
+[    Aravind Srinivas.:] we're really close
+[    Aravind Srinivas.:] I promise
+[    Neha Senthil.:] Hey we are all talking about it
+--- 03:05 PM ---
+[    Aravind Srinivas.:] +a
+[    Aravind Srinivas.:] +1
+[    Neha Senthil.:] that is a big improvement right there
+[    Aravind Srinivas.:] +1000
+[       Lex Fridman:] my mind's spinning - going back to work for a while - i'm struggling w/ the battle between consensus-building vs. leadership.
+--- 03:10 PM ---
+[    Aravind Srinivas.:] hint: they're the same thing
+[       Lex Fridman:] Web Tech Drinkup is a success because the Mark's just did it
+[    Aravind Srinivas.:] no
+[       Lex Fridman:] and did it well
+[    Aravind Srinivas.:] there was a need
+[       Lex Fridman:] true
+[    Aravind Srinivas.:] it's like a startup
+[       Lex Fridman:] but well-executed
+[    Aravind Srinivas.:] we saw a problem
+[    Aravind Srinivas.:] http://www.brainyquote.com/quotes/quotes/m/martinluth166528.html
+[     Adil Gazder.:] the purpose resonated with the community at large
+[       Lex Fridman:] yeah i guess i meant 'consensus-seeking'
+[     Joe Rogan:] There needs to be a need, but there also has to be a leader. If nobody steps up, we'll all stare blankly at each other
+[    Aravind Srinivas.:] I can't shove things down people's throats
+[    Aravind Srinivas.:] tried it
+[     Joe Rogan:] I said leader, not dictator :)
+[    Aravind Srinivas.:] happy to lead. part of it is making sure we're saying the same things.
+[    Aravind Srinivas.:] if we're not, we both look silly
+[     Joe Rogan:] agreed
+[    Aravind Srinivas.:] we need the same message when we talk to people outside the community
+[     Joe Rogan:] yes, definitely. Consistency is critical
+--- 03:15 PM ---
+[       Lex Fridman:] how about a call for volunteers (from you) - i'll help make it happen, I know Pranshul wants to help
+[    Aravind Srinivas.:] for what?
+[    Aravind Srinivas.:] the demos?
+[    Aravind Srinivas.:] we can do that
+[       Lex Fridman:] would be good to get collaboration w/ Haile, Cintrifuse, CincyTech, etc.
+[    Aravind Srinivas.:] I also need sponsors next month
+[       Lex Fridman:] UC
+[    Aravind Srinivas.:] would LOVE for ANYONE from cintrifuse to show up
+[    Aravind Srinivas.:] no one has been to anything
+[    Aravind Srinivas.:] drinkups, qcmerge
+[    Aravind Srinivas.:] even with invitations
+[       Lex Fridman:] I can help w/ that
+[    Aravind Srinivas.:] that's the most discouraging part
+[    Aravind Srinivas.:] I don't feel like what we're doing is relevant
+[    Aravind Srinivas.:] True stoLex:
+[       Lex Fridman:] They're noobs - need schooled
+[    Aravind Srinivas.:] I invited someone from Cincy Tech. They said they didn't have time to hang out with a bunch of developers.
+[    Aravind Srinivas.:] Talk about a punch in the gut.
+[    Aravind Srinivas.:] That'll take the wind out of your sails.
+[       Lex Fridman:] That's a big problem
+[     Pranshul Bhatnagar.:] Haha
+[     Joe Rogan:] Sounds like they don't understand how to build stuff
+[    Aravind Srinivas.:] BUT THEY CONTROL THE VOICE!
+[       Lex Fridman:] I'll help w/ all that - i'll be "startup community" delegate - which really sucks for me but i want to fix this
+[    Aravind Srinivas.:] if that's what they say about us, why do we have any reason to feel differently
+[    Aravind Srinivas.:] thanks, Lex
+[       Lex Fridman:] BTW
+[       Lex Fridman:] that's why this should be about "innovation" vs. "tech"
+--- 03:20 PM ---
+[    Aravind Srinivas.:] yes, I agree
+--- 03:20 PM ---
+[    Aravind Srinivas.:] tech is not veLex descriptive
+[       Lex Fridman:] even though it's really about tech
+[    Aravind Srinivas.:] it leaves room for Haile and others
+[       Lex Fridman:] yep
+[     Joe Rogan:] Mark, because they are not our boss. It sucks that they don't understand, but that is their loss, not ours. 
+[       Lex Fridman:] Joe Audette: no - it's eveLexones loss
+[     Pranshul Bhatnagar.:] Shrug, Wendy is working to build up the indie authors/readers around here
+[       Lex Fridman:] as Mark said, they have the megaphone
+[    Aravind Srinivas.:] yep
+[    Aravind Srinivas.:] we need that
+[     Pranshul Bhatnagar.:] That's not really tech, but hopefully innovative 
+[    Aravind Srinivas.:] and, whether they know it or not, they need us
+[       Lex Fridman:] so.....
+[       Lex Fridman:] work?
+[     Joe Rogan:] Lex: true. But you can't build anything without a maker. A maker can build something without capital
+[       Lex Fridman:] Joe Audette: i agree completely - i love the NYTM attitude that it's about making cool shit, regardless of fundability
+[    Aravind Srinivas.:] Let's talk with Cintrifuse and Haile
+[       Lex Fridman:] that's why we need to control what is demoed
+[       Lex Fridman:] we = makers
+[    Aravind Srinivas.:] see what we can come up with
+[    Aravind Srinivas.:] we can do demos
+[       Lex Fridman:] k
+[    Aravind Srinivas.:] I'll get the form that Pranshul made out there
+[    Aravind Srinivas.:] I also need a sponsor next month
+[       Lex Fridman:] how much?
+[       Lex Fridman:] ($)
+[    Aravind Srinivas.:] $500/$300
+--- 03:25 PM ---
+[    Aravind Srinivas.:] $500 is a "first drink" sponsor, $300 is "venue" sponsor
+[    Aravind Srinivas.:] it's going to be tough to do demos at Japp's, but we'll tLex it and see
+[Aravind Srinivas. tweeted:] We’re going to tLex @NYTM style demos at the next #CWTDrinkup! Apply here: http://t.co/Lb0BRJm67e We need sponsors, too! Please RT! -- @cdmwebs, http://twitter.com/cdmwebs/status/359394169573228544
+[       Lex Fridman:] ok i have 3:30 meeting + a backlog of stuff to do - thanks for inviting me into this...
+[    Aravind Srinivas.:] thanks for being involved!
+[       Lex Fridman:] that'll be a good learning experience if nothing else :)
+[       Lex Fridman:] later guys
+--- 03:30 PM ---
+[Peter Thiel. has left the room]
+[Andy J. has entered the room]
+--- 03:40 PM ---
+[Lex Fridman has left the room]
+--- 03:50 PM ---
+[Andrew Garfield. has left the room]
+[Andy J. has left the room]
+[Adil Gazder R. has entered the room]
+--- 04:00 PM ---
+[    James Sinegal.:] http://i.imgur.com/O6uJau9.jpg
+[    James Sinegal.:] https://encLexpted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTPt7be-A8_k5ASrP_EtvV3wWj_XhWoz_GTFkxZGhud2xR8q_f
+[    James Sinegal.:] https://encLexpted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTPt7be-A8_k5ASrP_EtvV3wWj_XhWoz_GTFkxZGhud2xR8q_f
+[    James Sinegal.:] https://encLexpted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTPt7be-A8_k5ASrP_EtvV3wWj_XhWoz_GTFkxZGhud2xR8q_f#jpg
+[👊 Lewis Hamilton 👊.:] that's way better than any stupid dorito shell
+[    Aravind Srinivas.:] lol
+[    Aravind Srinivas.:] make a blt like that and we're talking
+[👊 Lewis Hamilton 👊.:] you can put mayo on it if you want
+[👊 Lewis Hamilton 👊.:] but that'd be gross
+--- 04:05 PM ---
+[     Adil Gazder.:] http://i.imgur.com/vNJN4aQ.gif
+[👊 Lewis Hamilton 👊.:] wetsuit: pooped.
+[👊 Lewis Hamilton 👊.:] which would be terrible because there's not much space in a wetsuit
+[     Adil Gazder.:] related
+[     Adil Gazder.:] http://i.imgur.com/w2eh4XX.gif
+--- 04:20 PM ---
+[    Neha Senthil.:] A kitten for eveLexone today
+[    Neha Senthil.:] http://25.media.tumblr.com/970ddf504ef2d1701eb5eefa2c93755b/tumblr_mnapwu66KJ1r5c792o1_250.gif
+[👊 Lewis Hamilton 👊.:] http://i.imgur.com/Kp5Mg0Q.gif
+[    Neha Senthil.:] This is what I think of when I think of the Groovy lang
+[    Neha Senthil.:] http://24.media.tumblr.com/1df39d35b4b0f45217d6ce155223fede/tumblr_mq9tgleqja1qdlh1io1_400.gif
+[     Adil Gazder.:] Neha Senthil: I'm glad that kitten gif cut off before it's killed by that rocking chair
+[    Neha Senthil.:] https://diasp.org/uploads/images/scaled_full_ca264ee3c0531b9605e6.gif
+--- 04:25 PM ---
+[Adil Gazder. tweeted:] For when your project needs more Canada http://t.co/U0YjP2lYee -- @juliehache, http://twitter.com/juliehache/status/359405253059280896
+[     Adil Gazder.:] Brampton down south allophone Lake Erie: maritimer Windsor hose Mr. Dressup Lewiss; scarberia, Kentucky Fried Rabbit Hali Quebec City; pop, for sure! Gino pissed bachelor gorby; Liberal The Bay of Fundy Horny Tim's moose you know, and Lexe and ginger May Two-Four Lake Huron left coast Saskatoon Brampton forty pounder The 905 Nova Scotia you know, and hose! Fredericton Horny Tim's Green Party Sydney Islander eaves troughs Brandon maritimer TransCan parkade Yukon The Liberals Edmonton Rush:,;, hey?
+--- 04:30 PM ---
+[Tammy G. has entered the room]
+--- 04:50 PM ---
+[Joe Rogan has left the room]
+[Dewayne G. has left the room]
+[Tammy G. has left the room]
+--- 05:00 PM ---
+[Kevin R. has left the room]
+--- 05:10 PM ---
+[Neha Senthil. has left the room]
+--- 05:20 PM ---
+[Neha Senthil. has entered the room]
+--- 05:25 PM ---
+[     Adil Gazder.:] https://github.com/discourse/discourse/wiki/The-Discourse-Admin-Quick-Start-Guide
+--- 05:30 PM ---
+[Paul Hudson. has left the room]
+[Adil Gazder R. has left the room]
