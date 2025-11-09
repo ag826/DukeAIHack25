@@ -245,6 +245,65 @@ Here is the user query:
     response = model.generate_content(prompt)
     return response.text
 
+def build_rag_engine():
+    """
+    Do what your current main() does to load
+    - person_db
+    - mindmap
+    - mindmap_index
+    then return them bundled.
+    """
+    person_db = PersonDatabase()
+    json_folder = "./out_speakers/profiles"
+    for filename in os.listdir(json_folder):
+        if filename.endswith(".json"):
+            json_path = os.path.join(json_folder, filename)
+            print(f"Processing {json_path}...")
+            with open(json_path, "r", encoding="utf8") as f:
+                scraper_json = json.load(f)
+            person_db.load_from_scraper_json(scraper_json)
+    person_db.build_person_chunks()
+    person_db.create_faiss_index()
+
+    # mindmap can be empty, you saw 0 chunks earlier
+    mindmap_chunks = []
+    mindmap_index = faiss.IndexFlatL2(EMBED_MODEL.get_sentence_embedding_dimension()) if False else None
+
+    print(f"✅ RAG framework ready. persons={len(person_db.persons)} mindmap_chunks={len(mindmap_chunks)}")
+    return {
+        "person_db": person_db,
+        "mindmap_index": mindmap_index,
+        "mindmap_chunks": mindmap_chunks,
+    }
+
+
+def answer_with_rag(rag_engine, query: str, history):
+    person_db = rag_engine["person_db"]
+    mindmap_index = rag_engine["mindmap_index"]
+    mindmap_chunks = rag_engine["mindmap_chunks"]
+
+    # minimal: just search person_db for now
+    results = person_db.search(query, top_k=5)
+
+    context = "\n".join(f"- {r['text']}" for r in results)
+    chat_history_text = "\n".join(f"{m['role']}: {m['content']}" for m in history)
+
+    prompt = f"""
+You are an assistant over past meetings and people.
+Context:
+{context}
+
+History:
+{chat_history_text}
+
+User question:
+{query}
+
+Answer concisely:
+"""
+    model = genai.GenerativeModel("gemini-2.5-flash")
+    resp = model.generate_content(prompt)
+    return resp.text.strip()
 
 def main():
     # Load person JSON from scraper
@@ -257,7 +316,7 @@ def main():
         if filename.endswith(".json"):
             json_path = os.path.join(json_folder, filename)
             print(f"Processing {json_path}...")
-            with open(json_path, "r") as f:
+            with open(json_path, "r", encoding="utf-8", errors="ignore") as f:
                 scraper_json = json.load(f)
             person_db.load_from_scraper_json(scraper_json)
 

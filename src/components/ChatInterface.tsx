@@ -9,10 +9,10 @@ import { Send } from 'lucide-react';
 import { toast } from 'sonner';
 
 interface Message {
-  id: string;
+  id?: string;
   role: 'user' | 'assistant';
   content: string;
-  timestamp: string;
+  timestamp?: string;
 }
 
 export const ChatInterface = () => {
@@ -22,25 +22,7 @@ export const ChatInterface = () => {
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (!user) return;
-
-    const messagesRef = collection(db, 'chat_messages');
-    const q = query(messagesRef, where('userId', '==', user.uid), orderBy('timestamp', 'asc'));
-
-    const unsubscribe = onSnapshot(q, (snapshot) => {
-      const msgs: Message[] = [];
-      snapshot.forEach((doc) => {
-        msgs.push({
-          id: doc.id,
-          ...doc.data()
-        } as Message);
-      });
-      setMessages(msgs);
-    });
-
-    return unsubscribe;
-  }, [user]);
+  
 
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -53,67 +35,49 @@ export const ChatInterface = () => {
     setInput('');
     setIsLoading(true);
 
+    // ⿡ Add user message immediately
+    setMessages((prev) => [...prev, { role: 'user', content: userMessage }]);
+
+    // ⿢ Add temporary "assistant thinking"
+    setMessages((prev) => [...prev, { role: 'assistant', content: '...' }]);
+
     try {
-      const messagesRef = collection(db, 'chat_messages');
-      
-      await addDoc(messagesRef, {
-        userId: user.uid,
-        role: 'user',
-        content: userMessage,
-        timestamp: new Date().toISOString()
+      // ⿣ Ping backend directly
+      const res = await fetch('http://localhost:8000/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: user.uid,
+          message: userMessage,
+        }),
       });
 
-      // Add temporary "thinking" message
-      const thinkingMessageRef = await addDoc(messagesRef, {
-        userId: user.uid,
-        role: 'assistant',
-        content: '...',
-        timestamp: new Date().toISOString()
+      //if (!res.ok) throw new Error(Backend returned ${res.status});
+      const data = await res.json();
+
+      const reply = data.reply || 'No response';
+      console.log('LLM reply:', reply);
+
+      // ⿤ Replace last "..." with actual text
+      setMessages((prev) => {
+        const updated = [...prev];
+        updated[updated.length - 1] = { role: 'assistant', content: reply };
+        return updated;
       });
-
-      // Call Python backend API
-      try {
-        const response = await fetch('/api/chat-python', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            userId: user.uid,
-            message: userMessage,
-            conversationHistory: messages
-          })
-        });
-
-        if (!response.ok) {
-          throw new Error('Python backend offline');
-        }
-
-        const data = await response.json();
-        
-        // Update the thinking message with actual response
-        await addDoc(messagesRef, {
-          userId: user.uid,
-          role: 'assistant',
-          content: data.response || data.text || 'No response',
-          timestamp: new Date().toISOString()
-        });
-      } catch (error) {
-        // Show detailed error for debugging
-        const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-        await addDoc(messagesRef, {
-          userId: user.uid,
-          role: 'assistant',
-          content: `Internal error: ${errorMessage}. Please check backend connection.`,
-          timestamp: new Date().toISOString()
-        });
-        console.error('Chat error:', error);
-      }
     } catch (error) {
-      console.error('Error sending message:', error);
-      toast.error('Failed to send message');
+      console.error('Chat error:', error);
+      toast.error('Failed to reach backend.');
+      setMessages((prev) => {
+        const updated = [...prev];
+        updated[updated.length - 1] = {
+          role: 'assistant',
+          content: '⚠ Backend error — check server logs.',
+        };
+        return updated;
+      });
     } finally {
       setIsLoading(false);
+      scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
